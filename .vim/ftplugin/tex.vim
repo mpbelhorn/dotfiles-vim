@@ -10,5 +10,5 @@ let g:Tex_FoldedSections=""
 let g:Tex_FoldedEnvironments=""
 let g:Tex_FoldedMisc=""
 set cole=0
-set textwidth=80
+set textwidth=0
 set nowrap
