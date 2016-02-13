@@ -16,6 +16,7 @@ set foldmethod=marker
 "set foldmethod=manual
 "set foldmethod=expr
 "set foldmethod=indent
+set foldlevel=2
 set timeoutlen=1000 ttimeoutlen=0
 if version >= 700
    set spl=en spell
