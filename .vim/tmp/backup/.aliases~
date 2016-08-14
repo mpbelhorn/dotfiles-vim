@@ -1,0 +1,64 @@
+
+# Sysadmin
+alias hgit='vcsh'
+alias psa='ps auxf'
+alias psg='ps aux | grep'  #requires an argument
+alias date='echo -ne "${LIGHTBLUE}";date "+%A %B %d, %Y %l:%M %p %Z"'
+alias cal='echo -e "${CYAN}"; cal""'
+alias hist='history | g $1' #Requires one input
+alias du='du -sh'
+alias dul='\du -h | less'
+alias df='df -h'
+alias nano='nano -w'
+alias nanob='nano -w -B'
+alias q='clear; exit'
+alias sz='source ~/.zshrc'
+alias dh='dirs -v'
+
+# OLCF
+alias smithy_env='.  /sw/tools/smithy/environment.sh'
+alias mlo='module load'
+alias msw='module swap'
+alias mli='module list'
+alias mll='module list -l'
+alias msh='module show'
+
+# Programs.
+alias root='root -l'
+alias rootq='root -lq'
+alias nw='urxvt -e'
+alias xo='xdg-open'
+alias ipython-notebook='ipython notebook --pylab inline'
+alias mann='background urxvt -e man'
+
+# ls
+alias ls='ls --color=auto --group-directories-first'
+alias la='ls -a --color=auto --group-directories-first'
+alias ll='ls -lhF --color=auto --group-directories-first'
+alias lla='ls -lahF --color=auto --group-directories-first'
+alias lsd='ls -d */'
+
+# with grep
+alias lsg='ls --color=auto | g'
+alias lag='ls -a --color=auto | g'
+alias llg='ls -lah --color=auto | g'
+
+# Colorize grep
+alias g="grep --color=always"
+alias gi="grep -i --color=always"
+
+# Confirm
+alias mv='mv -i'
+alias cp='cp -i'
+alias rm='rm -i'
+
+# Override -f
+alias rmf='rm -Rfv'
+alias cpf='\cp -v'
+alias mvf='\mv -v'
+alias rmf='rm -Rfv'
+
+# Remote connection commands.
+alias proxy_uc='ssh -fqN proxy.earth'
+alias proxy_home='ssh -fqN proxy.home'
+alias mint-forward='ssh -fN pass.mint'

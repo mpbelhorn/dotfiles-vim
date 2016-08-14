@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/autofs/nccs-svm1_home2/belhorn/.zsh/git-prompt'
+let g:netrw_dirhist_2='/autofs/nccs-svm1_home2/belhorn/tickets/288441-compiling_opencv_on_sith/cbir_01_27_16/final_fine_searching'
+let g:netrw_dirhist_3='/autofs/nccs-svm1_home2/belhorn/tickets/288441-compiling_opencv_on_sith/cbir_01_27_16/query_images'
+let g:netrw_dirhist_4='/autofs/nccs-svm1_home2/belhorn/tickets/288441-compiling_opencv_on_sith/cbir_01_27_16'
+let g:netrw_dirhist_5='/autofs/nccs-svm1_home2/belhorn/tickets/288441-compiling_opencv_on_sith/cbir_01_27_16/rough_searching_omp'
+let g:netrw_dirhist_6='/autofs/nccs-svm1_home2/belhorn/tickets/288441-compiling_opencv_on_sith/cbir_01_27_16/write_image'

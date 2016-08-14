@@ -1,0 +1,84 @@
+---
+software-root: /sw
+file-group-name: ccsstaff
+hostname-architectures:
+  rhea-login1g: rhea
+  rhea-login2g: rhea
+  rhea-login3g: rhea
+  rhea-login4g: rhea
+  rhea-login5g: rhea
+  rhea-login6g: rhea
+  rhea-login7g: rhea
+  rhea-login8g: rhea
+  rhea: rhea
+  crest: power8
+  crest-login: power8
+  titan-ext: xk6
+  titan-login: xk6
+  arthur-login: xk6
+  chester-login: xk6
+  eos: xc30
+  eos-ext: xc30
+  eos-login: xc30
+  eugene: bgp
+  everest: everest 
+  everest-login: everest
+  ewok: sith
+  fatman: scibox
+  frost: frost
+  jaguar-ext: xt5
+  jaguar: xk6
+  jaguarpf-login: xk6
+  jaguarpf-ext: xk6
+  lens-login: analysis-x64
+  lens: analysis-x64
+  rizzo: xt5
+  sith: sith
+  sith-login: sith
+  smoky-login: smoky
+  smoky: smoky
+  smokylogin: smoky
+  yona-login: yona
+  yona: yona
+  focus: focus
+  focus-login: focus
+  workflow1.ccs.ornl.gov: redhat6
+  dtn-sch04.ccs.ornl.gov: dtn
+  dtn01.ccs.ornl.gov: dtn
+  dtn02.ccs.ornl.gov: dtn
+  dtn03.ccs.ornl.gov: dtn
+  dtn04.ccs.ornl.gov: dtn
+programming-environment-prefix:
+  default: PrgEnv-
+  smoky: PE-
+  sith: PE-
+web-root: /ccs/proj/ccsstaff/swdesc/data
+descriptions-root: /sw/descriptions
+web-architecture-names:
+  xk6: titan
+  xk7: titan
+  rhea: rhea
+  redhat6: rhea
+download-cache: /sw/sources
+formula-directories:
+- /sw/tools/smithy/formulas
+global-error-log: /sw/tools/smithy/exceptions.log
+lustre-software-root: 
+  chester-login1: /lustre/atlas/sw
+  chester-login2: /lustre/atlas/sw
+  titan-ext1: /lustre/atlas/sw
+  titan-ext2: /lustre/atlas/sw
+  titan-ext3: /lustre/atlas/sw
+  titan-ext4: /lustre/atlas/sw
+  titan-ext5: /lustre/atlas/sw
+  titan-ext6: /lustre/atlas/sw
+  titan-ext7: /lustre/atlas/sw
+  titan-ext8: /lustre/atlas/sw
+  titan-login1: /lustre/atlas/sw
+  titan-login2: /lustre/atlas/sw
+  titan-login3: /lustre/atlas/sw
+  titan-login4: /lustre/atlas/sw
+  titan-login5: /lustre/atlas/sw
+  titan-login6: /lustre/atlas/sw
+  titan-login7: /lustre/atlas/sw
+  titan-login8: /lustre/atlas/sw

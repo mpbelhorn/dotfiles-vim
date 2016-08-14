@@ -1,0 +1,20 @@
+[compiler "cray@4.3"]
+    cc = /usr/bin/gcc
+    cxx = /usr/bin/g++
+    f77 = None
+    fc = None
+[compiler "gcc@4.3.4"]
+    cc = None
+    cxx = None
+    f77 = /usr/bin/gfortran
+    fc = /usr/bin/gfortran
+[compiler "pgi@15.7-0"]
+    cc = /opt/pgi/15.7.0/linux86-64/15.7/bin/pgcc
+    cxx = /opt/pgi/15.7.0/linux86-64/15.7/bin/pgCC
+    f77 = /opt/pgi/15.7.0/linux86-64/15.7/bin/pgf77
+    fc = /opt/pgi/15.7.0/linux86-64/15.7/bin/pgf90
+[compiler "craype@2.4.2"]
+    cc = /opt/cray/craype/2.4.2/bin/cc
+    cxx = /opt/cray/craype/2.4.2/bin/CC
+    f77 = /opt/cray/craype/2.4.2/bin/ftn
+    fc = /opt/cray/craype/2.4.2/bin/ftn

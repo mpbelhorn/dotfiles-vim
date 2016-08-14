@@ -1,0 +1,3168 @@
+: 1431107068:0;ls
+: 1431107089:0;module list
+: 1431107112:0;module avail python_h5py
+: 1431107124:0;cd .smithy/formulas
+: 1431107125:0;ls
+: 1431107136:0;vim python_h5py_formula.rb
+: 1431107344:0;cd /opt/cray/hdf5/1.8.12/GNU/47/lib
+: 1431107344:0;ls
+: 1431107374:0;cd ../../../../1.8.7/gnu/45/lib
+: 1431107374:0;ls
+: 1431107413:0;cd ../../../../1.8.12
+: 1431107414:0;ls
+: 1431107423:0;ll
+: 1431107433:0;cd ..
+: 1431107443:0;find . -type d -iname 47
+: 1431107457:0;cd 1.8.12/GNU/47/lib
+: 1431107457:0;ls
+: 1431107640:0;cd /usr/local/lib
+: 1431107641:0;ls
+: 1431107643:0;cd ..
+: 1431107643:0;ls
+: 1431107649:0;cd lib64
+: 1431107649:0;ls
+: 1431107651:0;cd ..
+: 1431107688:0;find . -iname *libhdf5*
+: 1431107698:0;find . -iname \*libhdf5\*
+: 1431107702:0;cd /opt
+: 1431107705:0;find . -iname \*libhdf5\*
+: 1431107729:0;find . -iname \*libhdf5\*7
+: 1431107983:0;module show cray-hdf5/1.8.12
+: 1431107990:0;module show cray-hdf5
+: 1431108104:0;cd
+: 1431108112:0;cd .smithy/formulas
+: 1431108119:0;vim python_netcdf4_formula.rb
+: 1431108455:0;. /sw/tools/smithy/environment.sh
+: 1431108518:0;smithy -h
+: 1431108673:0;smithy formula install python_netcdf4/1.1.7/python2.7.9
+: 1431108693:0;vim python_netcdf4_formula.rb
+: 1431109522:0;tmux
+: 1431109531:0;which tmux
+: 1431109538:0;module avail tmux
+: 1431109613:0;/sw/cave/tmux/1.8/centos5.10_gnu4.1.2/bin/tmux
+: 1431109639:0;echo $PATH
+: 1431109686:0;PATH=$PATH:/sw/cave/tmux/1.8/centos5.10_gnu4.1.2/bin
+: 1431109688:0;tmux
+: 1431109705:0;PATH=$PATH:/sw/cave/tmux/1.8/centos5.10_gnu4.1.2/bin
+: 1431109707:0;tmux
+: 1431109730:0;ls python_*
+: 1431109747:0;vim python_h5py_formula.rb
+: 1431109774:0;which smithy
+: 1431109789:0;. /sw/tools/smithy/environment.sh
+: 1431109905:0;smithy formula install python_netcdf4/1.1.7/python2.7.9
+: 1431110046:0;vim python_netcdf4_formula.rb
+: 1431110321:0;ls
+: 1431110328:0;ls netcdf_formula.rb
+: 1431110975:0;smithy formula install python_netcdf4/1.1.7/python2.7.9
+: 1431111318:0;smithy module deploy python_netcdf4/1.1.7/python2.7.9
+: 1431111373:0;ls /sw/xk6/modulefiles/python_netcdf4/1.1.7
+: 1431111422:0;module load python_netcdf4
+: 1431111440:0;module load python python_netcdf 
+: 1431111445:0;module load python python_netcdf4 
+: 1431112335:0;module show python_netcdf4
+: 1431112353:0;cd /sw/xk6/python_netcdf4
+: 1431112353:0;ls
+: 1431112356:0;cd 1.1.7
+: 1431112357:0;ls
+: 1431112359:0;cd modulefile
+: 1431112359:0;ls
+: 1431112360:0;cd python_netcdf4
+: 1431112361:0;ls
+: 1431112370:0;vim 1.1.7
+: 1431112673:0;smithy module create python_netcdf4/1.1.7/python2.7.9
+: 1431112695:0;smithy module deploy python_netcdf4/1.1.7/python2.7.9
+: 1431112727:0;module load python python_netcdf4 
+: 1431112744:0;python
+: 1431112785:0;git status
+: 1431112828:0;git commit -am "Updated to use latest version 1.1.7. Removed seemingly obsolete cruft."
+: 1431112835:0;git push origin master
+: 1431117044:0;cd
+: 1431117048:0;cat .zhistory
+: 1431117083:0;git status
+: 1431117090:0;git push origin master
+: 1431117237:0;git pull origin master
+: 1431117283:0;git push origin master
+: 1431356439:0;ls
+: 1431356452:0;mkdir tickets
+: 1431356465:0;mkdir tickets/250638
+: 1431356480:0;mv 250638_test.* tickets/250638/.
+: 1431356494:0;mv test.o2347* tickets/250638/.
+: 1431356497:0;ll
+: 1431356507:0;vim lau
+: 1431356512:0;tmux
+: 1431356521:0;vim .zshrc
+: 1431356920:0;zsh --version
+: 1431356995:0;vim .zshrc
+: 1431357010:0;ls
+: 1431357011:0;la
+: 1431357018:0;vim .zprofile
+: 1431357110:0;mkdir -p ~/.vim/tmp/{undo,backup,swap}
+: 1431357116:0;vim .zshrc
+: 1431357135:0;less .zhistory
+: 1431357157:0;vim .zpr
+: 1431357162:0;vim .zprofile
+: 1431357230:0;vim .aliases
+: 1431357307:0;less .zhistory
+: 1431357344:0;vim .aliases
+: 1431357397:0;ls
+: 1431357461:0;la
+: 1431357469:0;rm .zcompdump
+: 1431357477:0;less .zcompdump
+: 1431357489:0;rm .zcompdump
+: 1431357533:0;module list
+: 1431357551:0;module load python_fireworks/1.04
+: 1431357564:0;grep lpad .zhistory
+: 1431357691:0;ls
+: 1431357723:0;lpad -l launchpad_test.yaml get_wflows
+: 1431357735:0;module load python
+: 1431357737:0;lpad -l launchpad_test.yaml get_wflows
+: 1431357747:0;module load python python_fireworks/1.04
+: 1431357750:0;lpad -l launchpad_test.yaml get_wflows
+: 1431357778:0;module load python python_fireworks/1.04 python_setuptools/14.0
+: 1431357780:0;lpad -l launchpad_test.yaml get_wflows
+: 1431357890:0;mkdir -p .local/bin
+: 1431357918:0;tmux
+: 1431357944:0;vim .local/bin/load_fw_modules.sh
+: 1431358002:0;chmod a+x .local/bin/load_fw_modules.sh
+: 1431358019:0;echo $PATH | grep local
+: 1431358030:0;echo $PATH | grep --color local
+: 1431358041:0;vim .zprofile
+: 1431358093:0;tmux
+: 1431358102:0;lpad version
+: 1431358150:0;la
+: 1431358158:0;mkdir .fireworks
+: 1431358159:0;cd .fireworks
+: 1431358170:0;vim FW_config
+: 1431358705:0;lpad init
+: 1431358753:0;man lpad
+: 1431358760:0;lapd --help
+: 1431358767:0;module list
+: 1431358824:0;cat launchpad_test.yaml
+: 1431359257:0;lpad init
+: 1431359495:0;ll
+: 1431359558:0;lpad -l
+: 1431359588:0;lpad --version
+: 1431359605:0;lpad version
+: 1431359631:0;cd /autofs/na4_sw/xk6/python_fireworks/1.04/python2.7.9/source
+: 1431359632:0;ls
+: 1431359636:0;cd fw_tutorials
+: 1431359636:0;ls
+: 1431359648:0;cd fw_config
+: 1431359650:0;ls
+: 1431359655:0;less FW_config.yaml
+: 1431359767:0;llwd
+: 1431359769:0;pwd
+: 1431359827:0;mkdir -p fireworks/titan_test/config
+: 1431359897:0;cd fireworks/titan_test/config
+: 1431359898:0;ls
+: 1431359899:0;cd ..
+: 1431359906:0;mkdir packages
+: 1431359917:0;touch hostname.firetask
+: 1431359959:0;mv ~/my_launchpad.yaml config/.
+: 1431359970:0;cd config
+: 1431359991:0;touch my_fireworker.yaml my_qadapter.yaml
+: 1431359991:0;ll
+: 1431360003:0;cd ..
+: 1431360004:0;ls
+: 1431360012:0;mv hostname.firetask packages/.
+: 1431360021:0;mkdir profile
+: 1431360029:0;rmdir profile
+: 1431360035:0;vim profile
+: 1431360069:0;ll
+: 1431360189:0;lpad reset
+: 1431360203:0;ls
+: 1431360216:0;lpad -h
+: 1431360256:0;ls
+: 1431360260:0;vim FW_config
+: 1431360269:0;cd
+: 1431360273:0;lpad reset
+: 1431360281:0;lpad version
+: 1431360300:0;cd .fireworks
+: 1431360300:0;ls
+: 1431360307:0;mv FW_config FW_config.yaml
+: 1431360308:0;cd
+: 1431360312:0;lpad version
+: 1431360315:0;lpad reset
+: 1431360328:0;lpad version
+: 1431360364:0;lpad  get_wflows
+: 1431360405:0;cd fireworks/titan_test/packages
+: 1431360405:0;ls
+: 1431360409:0;rm hostname.firetask
+: 1431360421:0;mkdir titan_test.firetask
+: 1431360446:0;vim FW_config
+: 1431360451:0;ll
+: 1431360454:0;rm FW_config
+: 1431360457:0;vim FW_config.yaml
+: 1431360486:0;cd packages
+: 1431360486:0;ls
+: 1431360494:0;mv titan_test.firetask demo_package.firetask
+: 1431360494:0;ls
+: 1431360507:0;cd
+: 1431360519:0;ll
+: 1431360529:0;lpad reset
+: 1431360608:0;vim FW_config.yaml
+: 1431360617:0;cd fireworks/titan_test/
+: 1431360618:0;ls
+: 1431360627:0;mkdir scripts
+: 1431360629:0;cd scripts
+: 1431360635:0;vim demo_submit.sh
+: 1431360654:0;cp ~/tickets/250638/250638_test.sh demo_submit.sh
+: 1431360657:0;vim demo_submit.sh
+: 1431361732:0;lpad -h
+: 1431361770:0;lpad add_scripts -h
+: 1431362126:0;lpad add_scripts 'hostname' 'echo "serial call"' -n host clean_up -w titan_test
+: 1431362139:0;lpad get_fws
+: 1431362158:0;lpad get_wflows
+: 1431362971:0;lpad get_wflows -n titan_test -h
+: 1431362984:0;lpad get_wflows -n titan_test -d more
+: 1431363190:0;rlaunch -h
+: 1431363244:0;module avail python_ipy
+: 1431363256:0;module list
+: 1431363263:0;module list ipyt
+: 1431363275:0;module load python_ipython/3.0.0
+: 1431363278:0;ipython
+: 1431365199:0;cat ../config/my_launchpad.yaml
+: 1431365218:0;module show python_fireworks/1.04
+: 1431365242:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9
+: 1431365242:0;ls
+: 1431365247:0;cd lib
+: 1431365248:0;ls
+: 1431365249:0;cd python2.7
+: 1431365250:0;ls
+: 1431365251:0;cd site-packages
+: 1431365252:0;ls
+: 1431365253:0;ll
+: 1431365278:0;cd ../../../../python2.7.9
+: 1431365279:0;ls
+: 1431365287:0;cd source
+: 1431365289:0;ls
+: 1431365296:0;cd fireworks
+: 1431365297:0;ls
+: 1431365298:0;ll
+: 1431365300:0;cd queue
+: 1431365300:0;ls
+: 1431365302:0;ll
+: 1431365307:0;vim queue_adapter.py
+: 1431365432:0;vim __init__.py
+: 1431365438:0;cd ..
+: 1431365439:0;ls
+: 1431365442:0;vim __init__.py
+: 1431365709:0;rlaunch --silencer rapidfire
+: 1431365764:0;lpad reset
+: 1431365786:0;lpad get_wflows -n titan_test -d more
+: 1431365798:0;lpad add_scripts 'hostname' 'echo "serial call"' -n host clean_up -w titan_test
+: 1431365802:0;rlaunch --silencer rapidfire
+: 1431365808:0;ls
+: 1431365830:0;showqueue
+: 1431365834:0;clear
+: 1431365871:0;lpad get_wflows
+: 1431365885:0;lpad get_wflows -d mre
+: 1431365888:0;lpad get_wflows -d more
+: 1431365919:0;ls
+: 1431365921:0;ls ~
+: 1431365932:0;cd launcher_2015-05-11-17-36-42-753752
+: 1431365933:0;ls
+: 1431365936:0;cat FW.json
+: 1431365956:0;ll
+: 1431365958:0;cd ..
+: 1431365958:0;ls
+: 1431365959:0;ll
+: 1431365965:0;cd
+: 1431365966:0;ls
+: 1431365979:0;rlaunch --silencer rapidfire
+: 1431365991:0;lpad get_wflows -d more
+: 1431366161:0;ll
+: 1431366179:0;cd fireworks/titan_test/scripts/
+: 1431366180:0;ll
+: 1431366198:0;cd launcher_2015-05-11-17-36-43-586070
+: 1431366199:0;ls
+: 1431366204:0;cat FW.json
+: 1431366570:0;ls
+: 1431366571:0;cd ..
+: 1431366572:0;ls
+: 1431366576:0;cd ..
+: 1431366577:0;ls
+: 1431366582:0;cd packages
+: 1431366582:0;ls
+: 1431366588:0;ls demo_package.firetask
+: 1431366590:0;cd ..
+: 1431366590:0;ls
+: 1431366593:0;cd config
+: 1431366593:0;ls
+: 1431366597:0;vim my_launchpad.yaml
+: 1431366607:0;cd ..
+: 1431366608:0;ls
+: 1431366615:0;lpad reset
+: 1431366623:0;ls
+: 1431366627:0;ls scripts
+: 1431366627:0;ls
+: 1431366635:0;rm -fr scripts/launcher_2015-05-11-17-36-4*
+: 1431366637:0;ll
+: 1431366643:0;mkdir run
+: 1431366644:0;cd run
+: 1431366666:0;grep titan_test ~/.zhistory
+: 1431366707:0;lpad add_scripts 'hostname' 'echo "serial call"' -n host clean_up -w titan_test
+: 1431366714:0;ls
+: 1431366731:0;rlaunch -h
+: 1431366764:0;rlaunch rapidfire
+: 1431366837:0;ll
+: 1431366841:0;cd launcher_2015-05-11-17-52-45-
+: 1431366846:0;cd launcher_2015-05-11-17-52-45-017056/ll
+: 1431366852:0;cd launcher_2015-05-11-17-52-45-017056/
+: 1431366854:0;ll
+: 1431366858:0;cat FW.json
+: 1431367869:0;ll
+: 1431367872:0;cd ..
+: 1431367873:0;ls
+: 1431368837:0;clear
+: 1431368843:0;ls
+: 1431368880:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9
+: 1431368881:0;ls
+: 1431368883:0;cd bin
+: 1431368883:0;ls
+: 1431368886:0;cd ..
+: 1431368887:0;ls
+: 1431368894:0;cd source/fw_tutorials/queue
+: 1431368894:0;ls
+: 1431368895:0;ll
+: 1431368907:0;vim qadapter_pbs.yaml
+: 1431368939:0;cd ../config
+: 1431368940:0;ls
+: 1431368942:0;vim my_qadapter.yaml
+: 1431370676:0;tmux attach
+: 1431370684:0;tmux
+: 1431370695:0;ssh titan-ext1
+: 1431370702:0;tmux attach
+: 1431370785:0;ls
+: 1431370793:0;cd
+: 1431370800:0;cd fireworks/titan_test/config
+: 1431370801:0;ll
+: 1431371090:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/fw_tutorials/worker
+: 1431371091:0;ls
+: 1431371092:0;ll
+: 1431371097:0;vim my_fworker.yaml
+: 1431371193:0;cd .
+: 1431371194:0;cd ..
+: 1431371195:0;s
+: 1431371195:0;ls
+: 1431371198:0;mkdir logs
+: 1431371200:0;ll
+: 1431371225:0;lpad reset
+: 1431371232:0;ls
+: 1431371248:0;vim fw_test.yaml
+: 1431371461:0;lpad add config/firework.yaml
+: 1431371489:0;lpad -h
+: 1431371497:0;lpad get_wflows
+: 1431371504:0;cd
+: 1431371510:0;cd fireworks/titan_test/config
+: 1431371513:0;vim firework.yaml
+: 1431371771:0;mv config/firework.yaml packages/demo_package.firetask
+: 1431371778:0;cd packages/demo_package.firetask
+: 1431371779:0;ls
+: 1431371902:0;cd ../..
+: 1431371902:0;ls
+: 1431371914:0;ll
+: 1431371925:0;lpad add config/firework.yaml
+: 1431372017:0;ls
+: 1431372186:0;cd
+: 1431372187:0;ls
+: 1431372200:0;ll
+: 1431372214:0;lpad reset
+: 1431372314:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/fw_tutorials/worker
+: 1431372316:0;ll
+: 1431372322:0;cat my_fworker.yaml
+: 1431372404:0;lpad get_wflows
+: 1431372429:0;ls
+: 1431372434:0;cd
+: 1431372443:0;cd fireworks/titan_test/config
+: 1431372560:0;vim my_fireworker.yaml
+: 1431372608:0;ls
+: 1431372613:0;cd ..
+: 1431372620:0;lpad get_wflows
+: 1431372630:0;lpad add config/firework.yaml
+: 1431372635:0;lpad get_wflows
+: 1431372644:0;cat config/firework.yaml
+: 1431372655:0;qlaunch singleshot
+: 1431372678:0;ls
+: 1431372682:0;ls logs
+: 1431372697:0;vim config/my_fireworker.yaml
+: 1431372718:0;lpad reset
+: 1431372726:0;lpad add config/firework.yaml
+: 1431372732:0;lpad get_wflows
+: 1431372736:0;lpad get_wflows -d more
+: 1431372750:0;qlaunch singleshot
+: 1431372765:0;ls
+: 1431372767:0;cd config
+: 1431372768:0;ls
+: 1431372805:0;ls ~
+: 1431372809:0;ls
+: 1431372811:0;cd ..
+: 1431372814:0;vim config/firework.yaml
+: 1431372828:0;qlaunch -h
+: 1431372869:0;lpad -h
+: 1431372886:0;lpad get_fws
+: 1431372905:0;lpad get_wflows
+: 1431372912:0;date
+: 1431372941:0;lpad get_wflows -h
+: 1431372947:0;lpad get_fws -h
+: 1431372955:0;lpad get_fws -d all
+: 1431372975:0;grep add ~/.zhistory
+: 1431372986:0;lpad add -h
+: 1431373122:0;lpad get_wflows -d all
+: 1431373132:0;lpad -h
+: 1431373150:0;vim config/my_launchpad.yaml
+: 1431373169:0;ll config
+: 1431373192:0;qlaunch -h
+: 1431373225:0;vim config/my_qadapter.yaml
+: 1431374393:0;rlaunch -h
+: 1431374879:0;ls
+: 1431374880:0;ll config
+: 1431374897:0;ls
+: 1431374898:0;ll
+: 1431374905:0;mv titan_qadapter.yaml config/.
+: 1431374907:0;cd config
+: 1431374907:0;ls
+: 1431374908:0;ll
+: 1431374919:0;cp my_launchpad.yaml titan_lpad.yaml
+: 1431374929:0;cp my_fireworker.yaml titan_worker.yaml
+: 1431374930:0;ll
+: 1431374937:0;rm my_*
+: 1431374939:0;ll
+: 1431374946:0;vim firework.yaml
+: 1431374971:0;ll
+: 1431374982:0;ssh titan-batch4
+: 1431374986:0;ls
+: 1431374992:0;pwd
+: 1431375009:0;cd /lustre/atlas/scratch/belhorn/stf007
+: 1431375010:0;ls
+: 1431375012:0;ll
+: 1431375083:0;cd ..
+: 1431375083:0;ls
+: 1431375090:0;mv TitanAdapterTemplate.txt config/.
+: 1431375091:0;ll
+: 1431375100:0;mkdir env
+: 1431375104:0;mv profile env/.
+: 1431375104:0;ll
+: 1431375109:0;cd config
+: 1431375110:0;ll
+: 1431375137:0;mv firework.yaml ../.
+: 1431375138:0;ll
+: 1431375140:0;cd ..
+: 1431375140:0;ll
+: 1431375150:0;ll packages
+: 1431375157:0;rm -fr packages
+: 1431375158:0;ll
+: 1431375162:0;ll run
+: 1431375172:0;ll scripts
+: 1431375177:0;rm -fr scripts
+: 1431375178:0;ll
+: 1431375248:0;lpad get_fws
+: 1431375258:0;lpad get_wflows
+: 1431375262:0;lpad rest
+: 1431375265:0;lpad reset
+: 1431375275:0;lpad add firework.yaml
+: 1431375387:0;grep qlaunch ~/.zhistory
+: 1431375397:0;qlaunch singleshot
+: 1431375457:0;ls
+: 1431375461:0;ll logs
+: 1431375472:0;less logs/qadapter_PBS-debug.log
+: 1431375492:0;less logs/qadapter_PBS-error.log
+: 1431375497:0;ll
+: 1431375500:0;ls
+: 1431375502:0;ll
+: 1431375512:0;cat FW_submit.script
+: 1431376291:0;lpad reset
+: 1431376307:0;vim firework.yaml
+: 1431376319:0;lpad add firework.yaml
+: 1431376326:0;qlaunch singleshot
+: 1431376331:0;ll
+: 1431376403:0;bash
+: 1431376667:0;lpad reset
+: 1431376674:0;lpad add firework.yaml
+: 1431376681:0;qlaunch singleshot
+: 1431376690:0;ll
+: 1431376708:0;ls
+: 1431376714:0;cat logs/qadapter_PBS-debug.log
+: 1431376764:0;ssh titan-batch
+: 1431376770:0;ssh titan-batch1
+: 1431376774:0;ls
+: 1431376780:0;cd fireworks/titan_test/
+: 1431376780:0;ls
+: 1431376794:0;lpad get_fws
+: 1431376802:0;module list
+: 1431376825:0;module load python python_fireworks/1.04
+: 1431376828:0;module list
+: 1431376832:0;lpad get_fws
+: 1431376848:0;module load python python_fireworks python_setuptools
+: 1431376850:0;lpad get_fws
+: 1431376867:0;qlaunch singleshot
+: 1431376882:0;ls
+: 1431376952:0;ll
+: 1431376985:0;cd /lustre/atlas/scratch/belhorn/stf007
+: 1431376986:0;ls
+: 1431376993:0;ll
+: 1431377035:0;echo $MEMBERWORK
+: 1431377109:0;echo $HOME
+: 1431377206:0;ll
+: 1431377208:0;cd ..
+: 1431377208:0;ls
+: 1431377209:0;ll
+: 1431377216:0;cd stf007
+: 1431377217:0;ls
+: 1431377242:0;ll
+: 1431377246:0;ll logs
+: 1431377254:0;cat logs/qadapter_PBS-error.log
+: 1431377270:0;rm FW_submit.script
+: 1431377273:0;ll
+: 1431377307:0;cd $MEMBERWORK
+: 1431377308:0;ll
+: 1431377319:0;touch caniwritehere
+: 1431377340:0;echo $PROJWORK
+: 1431377352:0;cd $PROJWORK
+: 1431377354:0;ll
+: 1431377357:0;ls
+: 1431377366:0;cd stf007
+: 1431377367:0;ls
+: 1431377389:0;echo $MEMBERWORK
+: 1431377421:0;cd $MEMBERWORK/stf007
+: 1431377422:0;ls
+: 1431377425:0;touch cani
+: 1431377426:0;ls
+: 1431377428:0;ll
+: 1431377429:0;rm cani
+: 1431377431:0;ll
+: 1431377691:0;ls
+: 1431377694:0;ll
+: 1431377873:0;hostname
+: 1431377873:0;echo 'Running from $(hostname)'
+: 1431377873:0;echo 'Running from `hostname`'
+: 1431377873:0;echo 'Running from $(`hostname`)'
+: 1431377873:0;echo "Running from `hostname`"
+: 1431377880:0;ll
+: 1431377887:0;lpad reset
+: 1431377966:0;ll
+: 1431377970:0;vim firework.yaml
+: 1431377989:0;lpad add firework.yaml
+: 1431378000:0;qlaunch singleshot
+: 1431378124:0;lpad reset
+: 1431378129:0;lpad add firework.yaml
+: 1431378132:0;qlaunch singleshot
+: 1431378174:0;ls
+: 1431378185:0;cat TitanAdapterTemplate.txt
+: 1431378187:0;:q
+: 1431378195:0;ll
+: 1431378199:0;cat config/TitanAdapterTemplate.txt
+: 1431378206:0;mv TitanAdapterTemplate.txt config/.
+: 1431378219:0;l
+: 1431378222:0;rm FW_submit.script
+: 1431378233:0;lpad reset
+: 1431378241:0;lpad add firework.yaml
+: 1431378248:0;qlaunch singleshot
+: 1431378253:0;ll
+: 1431378261:0;cat logs/qadapter_PBS-error.log
+: 1431378268:0;ll
+: 1431378274:0;which qsub
+: 1431378310:0;qsub FW_submit.script
+: 1431378409:0;vim ~/.zhistory
+: 1431378511:0;cd
+: 1431378512:0;ls
+: 1431378514:0;cd tickets/250638
+: 1431378515:0;ls
+: 1431378523:0;cat 250638_test.sh
+: 1431378539:0;cp 250638_test.sh ~/sample_job.sh
+: 1431378540:0;cd
+: 1431378541:0;ls
+: 1431378543:0;vim sample_job.sh
+: 1431378566:0;mkdir playground
+: 1431378569:0;mv sample_job.sh playground
+: 1431378571:0;cd playground
+: 1431378571:0;ls
+: 1431378577:0;qsub sample_job.sh
+: 1431378579:0;ll
+: 1431378591:0;showqueue
+: 1431378616:0;showq -h
+: 1431378620:0;showq
+: 1431378626:0;showq -h
+: 1431378642:0;showq -c -w user=belhorn
+: 1431378647:0;ls
+: 1431378649:0;ll
+: 1431378652:0;cat test.o2350028
+: 1431378658:0;vim sample_job.sh
+: 1431378698:0;mv sample_job.sh sample_aprun_job.sh
+: 1431378709:0;mv sample_aprun_job.sh aprun_job
+: 1431378717:0;mv aprun_job aprun_job.sh
+: 1431378721:0;vim aprun_job.sh
+: 1431378747:0;cp aprun_job.sh service_node_job.sh
+: 1431378751:0;vim service_node_job.sh
+: 1431378779:0;ll
+: 1431378782:0;rm test.o2350028
+: 1431378784:0;ll
+: 1431378804:0;qsub service_node_job.sh
+: 1431378814:0;showq -c -w user=belhorn
+: 1431378819:0;showq -w user=belhorn
+: 1431378834:0;ll
+: 1431378841:0;cat service_node_job.o2350032
+: 1431378854:0;qsub aprun_job.sh
+: 1431378864:0;showq -w user=belhorn
+: 1431378879:0;ls
+: 1431378885:0;cat aprun_job.o2350033
+: 1431378933:0;ls
+: 1431378934:0;ll
+: 1431378940:0;cat FW_submit.script
+: 1431378994:0;ll
+: 1431378998:0;rm FW_submit.script
+: 1431379025:0;ls
+: 1431379079:0;rlaunch -w config/titan_worker.yaml -l config/titan_lpad.yaml
+: 1431379087:0;rlaunch -w config/titan_worker.yaml -l config/titan_lpad.yaml singleshot
+: 1431379112:0;vim firework.yaml
+: 1431379127:0;which hostname
+: 1431379133:0;lpad reset
+: 1431379139:0;lpad add firework.yaml
+: 1431379144:0;rlaunch -w config/titan_worker.yaml -l config/titan_lpad.yaml singleshot
+: 1431379150:0;ls
+: 1431379176:0;qlaunch singleshot
+: 1431379186:0;lpad add firework.yaml
+: 1431379189:0;qlaunch singleshot
+: 1431379206:0;ls
+: 1431379213:0;qsub FW_submit.script
+: 1431379299:0;cat service_node_job.sh
+: 1431379336:0;lpad reset
+: 1431379342:0;lpad add firework.yaml
+: 1431379348:0;qlaunch singleshot
+: 1431379355:0;ls
+: 1431379357:0;ll
+: 1431379369:0;showq -w user=belhorn
+: 1431379388:0;ls
+: 1431379389:0;ll
+: 1431379392:0;cat titan_test.o2350071
+: 1431379475:0;module list
+: 1431379570:0;lpad get_wflows
+: 1431379578:0;lpad clear
+: 1431379582:0;lpad reset
+: 1431379592:0;lpad add firework.yaml
+: 1431379595:0;lpad get_wflows
+: 1431379603:0;qlaunch singleshot
+: 1431379611:0;showq -w user=belhorn
+: 1431379622:0;ll
+: 1431379629:0;showq -w user=belhorn
+: 1431379632:0;ll
+: 1431379641:0;cat titan_test.o2350110
+: 1431379701:0;cat FW_submit.script
+: 1431379711:0;ls
+: 1431379712:0;ll
+: 1431379720:0;rm FW_submit.script y
+: 1431379731:0;ll
+: 1431379743:0;cat titan_test.o2350110
+: 1431379783:0;lpad -h
+: 1431379806:0;lpad reset
+: 1431379821:0;lpad add firework.yaml
+: 1431379829:0;qlaunch singleshot
+: 1431379838:0;showq -w user=belhorn
+: 1431379841:0;ll
+: 1431379858:0;l
+: 1431379859:0;ll
+: 1431379863:0;cat titan_test.o2350131
+: 1431379924:0;echo $PATH
+: 1431379982:0;lpad reset
+: 1431379988:0;lpad add firework.yaml
+: 1431379993:0;qlaunch singleshot
+: 1431379996:0;ll
+: 1431380020:0;cat titan_test.o2350138
+: 1431380082:0;lpad reset
+: 1431380087:0;lpad add firework.yaml
+: 1431380098:0;lpad get_wflows -d all
+: 1431380111:0;lpad get_fws -d all
+: 1431380130:0;qlaunch singleshot
+: 1431380135:0;ll
+: 1431380159:0;cat titan_test.o2350144
+: 1431380249:0;lpad reset
+: 1431380254:0;lpad add firework.yaml
+: 1431380258:0;qlaunch singleshot
+: 1431380261:0;ls
+: 1431380263:0;ll
+: 1431380293:0;cat titan_test.o2350150
+: 1431380374:0;echo $MEMBERWORK
+: 1431380393:0;ll
+: 1431380397:0;rm titan_test.o2350*
+: 1431380401:0;ll
+: 1431380416:0;mv firework.yaml service_node_test.yaml
+: 1431380437:0;cp service_node_test.yaml compute_node_fw.yaml
+: 1431380446:0;mv service_node_test.yaml service_node_fw.yaml
+: 1431380447:0;ll
+: 1431380472:0;vim compute_node_fw.yaml
+: 1431380490:0;ll
+: 1431380504:0;lpad reset
+: 1431380525:0;lpad add compute_node_fw.yaml
+: 1431380537:0;lpad reset
+: 1431380548:0;lpad add service_node_fw.yaml
+: 1431380555:0;lpad add compute_node_fw.yaml
+: 1431380565:0;qlaunch singleshot
+: 1431380569:0;ll
+: 1431380597:0;showq -w user=belhorn
+: 1431380600:0;ll
+: 1431380606:0;cat titan_test.o2350175
+: 1431380722:0;qlaunch singleshot
+: 1431380729:0;ls
+: 1431380733:0;showq -w user=belhorn
+: 1431380750:0;lpad get_fws
+: 1431380757:0;lpad get_wflows
+: 1431380760:0;ls
+: 1431380761:0;ll
+: 1431380767:0;cat titan_test.o2350175
+: 1431380772:0;cat titan_test.o2350199
+: 1431434027:0;ll
+: 1431434039:0;ssh titan-ext1
+: 1431434042:0;ll
+: 1431434047:0;tmux list
+: 1431434063:0;tmux list-sessions
+: 1431434066:0;tmux attach
+: 1431434085:0;ll
+: 1431434160:0;cat logs/qadapter_PBS-debug.log
+: 1431434193:0;lpad -h
+: 1431434198:0;lpad add -h
+: 1431434246:0;cat compute_node_fw.yaml
+: 1431434317:0;mkdir firetasks
+: 1431434352:0;mv compute_node_fw.yaml firetasks/node_test_compute.yaml
+: 1431434364:0;mv service_node_fw.yaml firetasks/node_test_compute.yaml
+: 1431434382:0;mv service_node_fw.yaml firetasks/node_test_service.yaml
+: 1431434383:0;ll
+: 1431434408:0;vim config/titan_lpad.yaml
+: 1431435748:0;ll
+: 1431435756:0;vim ~/.zshrc
+: 1431435823:0;cd
+: 1431435825:0;cd .vim
+: 1431435825:0;ls
+: 1431435829:0;mkdir bundle
+: 1431435873:0;ls
+: 1431435875:0;cd bundle
+: 1431435879:0;git clone https://github.com/altercation/vim-colors-solarized.git
+: 1431436005:0;tmux
+: 1431436015:0;cd fireworks/titan_test/
+: 1431436023:0;vim config/titan_lpad.yaml
+: 1431436067:0;ls
+: 1431436071:0;ll
+: 1431436078:0;cd firetasks
+: 1431436078:0;ls
+: 1431436082:0;vim node_test_compute.yaml
+: 1431436115:0;ll
+: 1431436117:0;cd ..
+: 1431436117:0;ls
+: 1431436119:0;ll
+: 1431436403:0;pwd
+: 1431436494:0;lpad get_wflows
+: 1431436512:0;ls
+: 1431436517:0;cat env/profile
+: 1431436527:0;source env/profile
+: 1431436536:0;vim env/profile
+: 1431436547:0;. ./env/profile
+: 1431436558:0;vim env/profile
+: 1431436577:0;module load python python_fireworks python_setuptools
+: 1431436584:0;lpad get_wflows
+: 1431436592:0;lpad reset
+: 1431436596:0;ls
+: 1431436614:0;lpad add firetasks/node_test_service.yaml
+: 1431436634:0;qlaunch singleshot
+: 1431436638:0;ll
+: 1431436645:0;ls run
+: 1431436648:0;ll
+: 1431436657:0;ll run
+: 1431436670:0;ls
+: 1431436671:0;ll
+: 1431436758:0;cat titan_test.o2350863
+: 1431436879:0;ls
+: 1431437272:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/fw_tutorials
+: 1431437272:0;ls
+: 1431437274:0;ll
+: 1431437279:0;cd firetask
+: 1431437279:0;ls
+: 1431437280:0;ll
+: 1431437287:0;cat fw_multi.yaml
+: 1431437300:0;grep launch *
+: 1431437316:0;cat simple_template_copy.txt
+: 1431437322:0;cat __init__.py
+: 1431437329:0;cat fw_adder.yaml
+: 1431437348:0;cd ..
+: 1431437349:0;ls
+: 1431437350:0;ll
+: 1431437381:0;grep -r launch *
+: 1431437403:0;grep -r launch_dir *
+: 1431437547:0;ls
+: 1431437550:0;cd ..
+: 1431437550:0;ls
+: 1431437551:0;ll
+: 1431437590:0;d
+: 1431437591:0;ls
+: 1431437733:0;cat titan_test.o2350863
+: 1431437843:0;lpad reset
+: 1431437853:0;lpad add firetasks/node_test_service.yaml
+: 1431437871:0;qlaunch rapidfire
+: 1431437910:0;qlaunch singleshot
+: 1431437915:0;ls
+: 1431437916:0;ll
+: 1431437921:0;ls block_2015-05-12-13-37-52-292582
+: 1431437940:0;ls block_2015-05-12-13-37-52-292582/launcher_2015-05-12-13-37-52-459274/2350877.OU
+: 1431437945:0;cat block_2015-05-12-13-37-52-292582/launcher_2015-05-12-13-37-52-459274/2350877.OU
+: 1431437975:0;ls
+: 1431437978:0;ll
+: 1431437982:0;rm -fr block_2015-05-12-13-37-52-292582
+: 1431437984:0;ll
+: 1431438113:0;rm 2350879.OU
+: 1431438115:0;ll
+: 1431438120:0;rm FW*
+: 1431438123:0;ll
+: 1431438127:0;rm titan_test.o2350*
+: 1431438130:0;ll
+: 1431438137:0;xload reset
+: 1431438148:0;lpad reset
+: 1431438153:0;module load python python_fireworks python_setuptools
+: 1431438159:0;lpad reset
+: 1431438174:0;lpad -h
+: 1431438193:0;lpad add -h
+: 1431438219:0;lpad add firetasks/node_test_service.yaml firetasks/node_test_service.yaml
+: 1431438233:0;qlaunch -h
+: 1431438347:0;qlaunch rapidfire
+: 1431438371:0;ls
+: 1431438373:0;ll
+: 1431438429:0;s
+: 1431438430:0;ls
+: 1431438434:0;rm -fr block_2015-05-12-13-45-48-004837
+: 1431438437:0;ls
+: 1431438438:0;ll
+: 1431438465:0;lpad reset
+: 1431438483:0;lpad add firetasks/node_test_service.yaml firetasks/node_test_service.yaml
+: 1431438494:0;qlaunch rapidfire
+: 1431438506:0;ls
+: 1431438511:0;rm -fr block_2015-05-12-13-48-14-895459
+: 1431438513:0;ll
+: 1431438522:0;qlaunch singleshot
+: 1431438524:0;ll
+: 1431438538:0;ls
+: 1431438539:0;ll
+: 1431438543:0;cat titan_test.o2350891
+: 1431438553:0;lpad add firetasks/node_test_compute.yaml
+: 1431438558:0;qlaunch singleshot
+: 1431438576:0;ls
+: 1431438578:0;ll
+: 1431438599:0;lpad reset
+: 1431438626:0;lpad add firetasks/node_test_compute.yaml
+: 1431438632:0;lpad get_wflows
+: 1431438645:0;qlaunch singleshot
+: 1431438650:0;ll
+: 1431438661:0;cat titan_test.o235089*
+: 1431438897:0;ls
+: 1431438899:0;cd ..
+: 1431438899:0;ls
+: 1431438902:0;cd ../bin
+: 1431438902:0;ls
+: 1431438909:0;./mlaunch -h
+: 1431438914:0;module load python python_fireworks python_setuptools
+: 1431438916:0;./mlaunch -h
+: 1431439693:0;ll
+: 1431439761:0;cat titan_test.o235089*
+: 1431440234:0;ll
+: 1431440248:0;vim rlaunch
+: 1431441930:0;cd
+: 1431441932:0;ll
+: 1431441935:0;cd fireworks
+: 1431441935:0;ls
+: 1431441952:0;mkdir python_api
+: 1431441954:0;cd python_api/y
+: 1431441960:0;cd python_api
+: 1431441961:0;ls
+: 1431442094:0;module load python python_fireworks python_setuptools
+: 1431442114:0;module load python_ipython
+: 1431442116:0;ipython
+: 1431442128:0;ls
+: 1431442151:0;vim titan_test.py
+: 1431442266:0;ls ~/.vim/bundle
+: 1431442274:0;vim
+: 1431442296:0;vim --version
+: 1431442312:0;ls
+: 1431442315:0;cd
+: 1431442317:0;cd .vim
+: 1431442318:0;ls
+: 1431442319:0;ll
+: 1431442320:0;cd bundle
+: 1431442321:0;ls
+: 1431442322:0;ls vim-colors-solarized
+: 1431442329:0;cd ..
+: 1431442330:0;ls
+: 1431442382:0;cd
+: 1431442386:0;git clone https://github.com/tpope/vim-pathogen.git
+: 1431442387:0;ls
+: 1431442392:0;cd vim-pathogen
+: 1431442393:0;ls
+: 1431442394:0;cd autoload
+: 1431442394:0;ls
+: 1431442411:0;cd .
+: 1431442412:0;cd ..
+: 1431442420:0;mv autoload ~/.vim/.
+: 1431442421:0;ll
+: 1431442422:0;cd ..
+: 1431442431:0;rm -fr vim-pathogen
+: 1431442434:0;clear
+: 1431442435:0;ls
+: 1431442444:0;vim titan_test.py
+: 1431442605:0;module load python_ipython
+: 1431442625:0;module load python python_fireworks python_setuptools python_ipython
+: 1431442627:0;ls
+: 1431442630:0;ipython
+: 1431444257:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/fw_tutorials
+: 1431444258:0;cd ..
+: 1431444259:0;ls
+: 1431444272:0;cd fireworks/user_objects/queue_adapters/
+: 1431444272:0;ls
+: 1431444276:0;vim common_adapter.py
+: 1431444416:0;cd
+: 1431444423:0;cd fireworks/titan_test/config
+: 1431444424:0;ls
+: 1431444429:0;vim titan_qadapter.yaml
+: 1431445303:0;ll
+: 1431445309:0;cat titan_lpad.yaml
+: 1431445319:0;cat titan_worker.yaml
+: 1431445898:0;ls
+: 1431445902:0;cd ..
+: 1431445902:0;ls
+: 1431445903:0;ll
+: 1431445906:0;ls firetasks
+: 1431445913:0;ls
+: 1431445916:0;clear
+: 1431445917:0;ll
+: 1431446251:0;cd ../python_api
+: 1431446251:0;ls
+: 1431446269:0;vim titan_test.py
+: 1431446281:0;module load python python_fireworks python_setuptools python_ipython
+: 1431446287:0;python titan_test.py
+: 1431446357:0;ls
+: 1431446358:0;ll
+: 1431446392:0;python titan_test.py
+: 1431446529:0;ls
+: 1431446530:0;ll
+: 1431446548:0;showq -w user=belhorn
+: 1431446551:0;ls
+: 1431446552:0;ll
+: 1431446564:0;ls
+: 1431446568:0;cd ../titan_test
+: 1431446569:0;ls
+: 1431446569:0;ll
+: 1431446582:0;ls logs
+: 1431446586:0;ll logs
+: 1431446591:0;ll
+: 1431446622:0;lpad get_wflows
+: 1431446642:0;ls
+: 1431446643:0;ll
+: 1431446678:0;lpad get_fws -d all
+: 1431446731:0;ls
+: 1431446740:0;showq -w user=belhorn
+: 1431446756:0;cat firetasks/node_test_service.yaml
+: 1431446766:0;cat config/titan_qadapter.yaml
+: 1431446826:0;python titan_test.py
+: 1431446832:0;showq -w user=belhorn
+: 1431446840:0;ls
+: 1431446904:0;python titan_test.py
+: 1431447019:0;ls
+: 1431447020:0;ll
+: 1431447107:0;ls
+: 1431447116:0;htop
+: 1431447366:0;python titan_test.py
+: 1431447389:0;lpad get_fws -d all
+: 1431448105:0;ls
+: 1431448106:0;ll
+: 1431448180:0;python titan_test.py
+: 1431448332:0;ll
+: 1431448394:0;ls
+: 1431448395:0;ll
+: 1431448418:0;cd launcher_2015-05-12-16-32-04-014583
+: 1431448419:0;ls
+: 1431448422:0;cat FW.json
+: 1431448427:0;ls
+: 1431448429:0;cd ..
+: 1431448430:0;ll
+: 1431448434:0;cat FW.json
+: 1431448435:0;ls
+: 1431448439:0;ll
+: 1431448960:0;mkdir run
+: 1431449223:0;ll
+: 1431449229:0;rm -fr launcher_2015-05-12-16-*
+: 1431449230:0;ll
+: 1431449233:0;rm FW.json
+: 1431449235:0;ll
+: 1431449240:0;python titan_test.py
+: 1431449264:0;ll
+: 1431449267:0;ll run
+: 1431449279:0;cd ../python_api/run/block_2015-05-12-16-47-25-516142
+: 1431449279:0;ls
+: 1431449280:0;ll
+: 1431449426:0;python titan_test.py
+: 1431450685:0;ll
+: 1431450688:0;cd run
+: 1431450688:0;ls
+: 1431450689:0;ll
+: 1431450690:0;cd block_2015-05-12-16-47-25-516142
+: 1431450691:0;ls
+: 1431450692:0;ll
+: 1431450696:0;cd launcher_2015-05-12-17-10-44-624885
+: 1431450697:0;ls
+: 1431450699:0;cat FW_submit.script
+: 1431450708:0;cd .
+: 1431450710:0;cd ..
+: 1431450710:0;ls
+: 1431450712:0;cd launcher_2015-05-12-17-10-38-965304
+: 1431450713:0;ls
+: 1431450715:0;ll
+: 1431450719:0;cat titan_test.o2351028
+: 1431450740:0;ll
+: 1431450746:0;cd ..
+: 1431450747:0;ls
+: 1431450748:0;ll
+: 1431450749:0;cd ..
+: 1431450750:0;ls
+: 1431450752:0;ll
+: 1431450754:0;cd ..
+: 1431450754:0;ll
+: 1431450772:0;python titan_test.py
+: 1431451080:0;ll
+: 1431451085:0;cd run
+: 1431451085:0;ls
+: 1431451123:0;rm -fr block_2015-05-12-16-47-25-516142
+: 1431451125:0;ll
+: 1431451128:0;cd ..
+: 1431451134:0;rm -fr block_2015-05-12-17-17-50-525834
+: 1431451135:0;ll
+: 1431451221:0;python titan_test.py
+: 1431451247:0;ls
+: 1431451251:0;cd run/block_2015-05-12-17-20-25-540022/launcher_2015-05-12-17-20-31-344406
+: 1431451252:0;ls
+: 1431451255:0;cat FW_submit.script
+: 1431451358:0;ls
+: 1431451360:0;cd ..
+: 1431451360:0;ls
+: 1431451364:0;cd launcher_2015-05-12-17-20-25-904742
+: 1431451364:0;ls
+: 1431451366:0;ll
+: 1431451371:0;cat titan_test.o2351035
+: 1431451377:0;ls
+: 1431451380:0;cat FW_submit.script
+: 1431451411:0;cd ../launcher_2015-05-12-17-20-31-344406
+: 1431451416:0;cat FW_submit.script
+: 1431451493:0;cd ..
+: 1431451494:0;ls
+: 1431451495:0;cd ..
+: 1431451496:0;ls
+: 1431451497:0;cd ..
+: 1431451498:0;ls
+: 1431451500:0;python titan_test.py
+: 1431451511:0;ls
+: 1431451519:0;cd run/block_2015-05-12-17-20-25-540022/launcher_2015-05-12-17-25-02-670014
+: 1431451520:0;ls
+: 1431451528:0;cat titan_test.o2351042
+: 1431451554:0;ls
+: 1431451558:0;ll
+: 1431451560:0;cd ..
+: 1431451562:0;ls
+: 1431451565:0;cd launcher_2015-05-12-17-25-08-106092
+: 1431451566:0;ll
+: 1431451853:0;cd ../../../
+: 1431451854:0;ls
+: 1431451856:0;python titan_test.py
+: 1431452023:0;ll
+: 1431452035:0;cd run/block_2015-05-12-17-20-25-540022/launcher_2015-05-12-17-33-05-688806
+: 1431452036:0;ll
+: 1431452041:0;cat titan_test.o2351055
+: 1431452133:0;cd ../../../
+: 1431452133:0;ls
+: 1431452135:0;python titan_test.py
+: 1431455545:0;ll
+: 1431455547:0;cd run
+: 1431455548:0;ls
+: 1431455549:0;ll
+: 1431455550:0;cd block_2015-05-12-17-20-25-540022
+: 1431455552:0;ls
+: 1431455553:0;ll
+: 1431455567:0;cd launcher_2015-05-12-18-29-21-641388
+: 1431455570:0;ls
+: 1431455575:0;cat titan_test.o2351090
+: 1431455586:0;ll
+: 1431455592:0;cd ..
+: 1431455593:0;ll
+: 1431456097:0;cd ../../
+: 1431456098:0;ls
+: 1431456103:0;python titan_test.py
+: 1431456334:0;ls
+: 1431456337:0;cd ..
+: 1431456340:0;ll
+: 1431456344:0;pwd
+: 1431456345:0;cd
+: 1431456363:0;cd fireworks/python_api/run/block_2015-05-12-17-20-25-540022
+: 1431456364:0;ll
+: 1431456434:0;cd launcher_2015-05-12-18-44-05-157877
+: 1431456435:0;ll
+: 1431456440:0;cat titan_test.o2351110
+: 1431456519:0;:q
+: 1431456665:0;ls
+: 1431456674:0;cd ..
+: 1431456706:0;git status
+: 1431456712:0;cd ..
+: 1431456713:0;ls
+: 1431456738:0;mv python_api titan_fireworks_demo
+: 1431456739:0;ls
+: 1431456743:0;cd titan_fireworks_demo
+: 1431456747:0;git init
+: 1431456753:0;ls
+: 1431456758:0;vim TitanQueueTemplate.txt
+: 1431456867:0;vim titan
+: 1431456872:0;vim titan_test.py
+: 1431456886:0;ls
+: 1431456893:0;cd titan_fireworks_demo
+: 1431456894:0;ls
+: 1431456897:0;rm wftitan.py
+: 1431456901:0;ls
+: 1431456903:0;ll
+: 1431457253:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/
+: 1431457254:0;ls
+: 1431457262:0;cd fireworks
+: 1431457262:0;ls
+: 1431457267:0;vim fw_config.py
+: 1431457406:0;ls
+: 1431457408:0;cd run
+: 1431457408:0;ls
+: 1431457411:0;rm -fr block_2015-05-12-17-20-25-540022
+: 1431457412:0;ll
+: 1431457415:0;cd ..
+: 1431457476:0;python titan_test.py
+: 1431457515:0;cd ../../
+: 1431457517:0;ls
+: 1431457519:0;cd 
+: 1431457526:0;cd fireworks/titan_fireworks_demo/run/block_2015-05-12-19-04-42-031642
+: 1431457527:0;ls
+: 1431457528:0;ll
+: 1431457551:0;ls
+: 1431457552:0;ll
+: 1431457562:0;grep Task -r *
+: 1431457627:0;grep hostname -r *
+: 1431457641:0;ll
+: 1431457645:0;ls launcher_2015-05-12-19-0
+: 1431457653:0;ls launcher_2015-05-12-19-04-48-044619
+: 1431457663:0;cat launcher_2015-05-12-19-04-42-512982/titan_test.o2351178
+: 1431458035:0;ls
+: 1431458039:0;pwd
+: 1431458042:0;ll
+: 1431458045:0;cd ..
+: 1431458046:0;ll
+: 1431458048:0;cd block_2015-05-12-19-04-42-031642
+: 1431458048:0;ll
+: 1431458053:0;cat launcher_2015-05-12-19-04-42-512982/titan_test.o2351178
+: 1431458077:0;cat launcher_2015-05-12-19-05-14-798570/titan_test.o2351193
+: 1431458100:0;ls
+: 1431458129:0;grep -r running titan_test*
+: 1431458135:0;grep -r running titan_test\*
+: 1431458169:0;grep running */titan_test*
+: 1431458271:0;grep  -e running|Task */titan_test*
+: 1431458285:0;grep  -e 'running|Task' */titan_test*
+: 1431458334:0;grep  -e '.*\(running\|Task.)' */titan_test*
+: 1431458342:0;grep  -e '.*\(running\|Task\)' */titan_test*
+: 1431458364:0;grep  -e '.*\(running\|#\)' */titan_test*
+: 1431458412:0;grep  -e '\(titan-.*\|#\)' */titan_test*
+: 1431458417:0;man grep
+: 1431458436:0;grep  -oe '\(titan-.*\|#\)' */titan_test*
+: 1431458444:0;man grep
+: 1431458487:0;grep  -hoe '\(titan-.*\|#\)' */titan_test*
+: 1431458498:0;grep  -hoe '\(titan-.*\|#.*\)' */titan_test*
+: 1431458534:0;ll
+: 1431458543:0;cat launcher_2015-05-12-19-05-30-898471/titan_test.o2351197
+: 1431458562:0;python titan_test.py
+: 1431458623:0;ll
+: 1431458714:0;python titan_test.py
+: 1431458725:0;ls
+: 1431458728:0;mkdir logs
+: 1431458731:0;ls
+: 1431458733:0;python titan_test.py
+: 1431458743:0;showq -w user=belhorn
+: 1431458753:0;ll
+: 1431458773:0;python titan_test.py
+: 1431458798:0;ll
+: 1431458800:0;cd ..
+: 1431458800:0;ls
+: 1431458801:0;ll
+: 1431458804:0;cd ..
+: 1431458804:0;ls
+: 1431458811:0;cd run/block_2015-05-12-19-26-14-858211
+: 1431458812:0;ll
+: 1431458814:0;cd launcher_2015-05-12-19-26-15-076325
+: 1431458814:0;ls
+: 1431458817:0;cat submission.pbs
+: 1431458887:0;echo $MEMBERWORK
+: 1431458938:0;python titan_test.py
+: 1431458953:0;cd $MEMBERWORK
+: 1431458954:0;ls
+: 1431458964:0;env | grep stf
+: 1431459010:0;python titan_test.py
+: 1431459168:0;cd /lustre/atlas/scratch/belhorn/stf007/\
+
+: 1431459169:0;ls
+: 1431459171:0;ll
+: 1431459191:0;cd block_2015-05-12-19-32-35-859172
+: 1431459192:0;ls
+: 1431459193:0;ll
+: 1431459223:0;grep  -hoe '\(titan-.*\|#.*\)' */titan_test*
+: 1431459263:0;cat launcher_2015-05-12-19-32-36-094348/titan_test.o2351249
+: 1431459333:0;,
+: 1431459337:0;clear
+: 1431459338:0;ll
+: 1431459351:0;cd ..
+: 1431459352:0;ls
+: 1431459361:0;rm -fr block_2015-05-12-19-3*
+: 1431459362:0;ls
+: 1431459367:0;rm -fr launcher_2015-05-12-17-*
+: 1431459368:0;ll
+: 1431459381:0;rm FW.json qadapter_TitanTest-*
+: 1431459384:0;ll
+: 1431459500:0;python titan_test.py
+: 1431459505:0;ll
+: 1431459514:0;cd block_2015-05-12-19-38-22-068045
+: 1431459515:0;ls
+: 1431459516:0;cd ..
+: 1431459517:0;ls
+: 1431459518:0;ll
+: 1431459719:0;grep  -hoe '\(titan-.*\|#.*\)' */titan_test*
+: 1431459728:0;cd block_2015-05-12-19-38-22-068045/
+: 1431459728:0;ls
+: 1431459731:0;grep  -hoe '\(titan-.*\|#.*\)' */titan_test*
+: 1431459894:0;ll
+: 1431459896:0;cd ..
+: 1431459896:0;ls
+: 1431459902:0;python titan_test.py
+: 1431461797:0;ll
+: 1431461804:0;python titan_test.py
+: 1431462530:0;ll
+: 1431462535:0;ls log
+: 1431462540:0;rm qadapter_titan-killable-*
+: 1431462543:0;ll
+: 1431462547:0;ls block_2015-05-12-19-38-22-068045
+: 1431462549:0;ll
+: 1431462560:0;ls block_2015-05-12-19-38-22-068045
+: 1431462573:0;date
+: 1431462580:0;ll
+: 1431462584:0;ls out
+: 1431462585:0;ll
+: 1431462588:0;rm block_2015-05-12-19-38-22-068045
+: 1431462591:0;rm -fr block_2015-05-12-19-38-22-068045
+: 1431462592:0;ll
+: 1431462625:0;grep  -hoe '\(titan-.*\|#.*\)' out/block_2015-05-12-20-28-41-525199/*/titan_test*
+: 1431462665:0;cat out/block_2015-05-12-20-28-41-525199/launcher_2015-05-12-20-29-15-051528/titan_test.o2351491
+: 1431463902:0;python titan_test.py
+: 1431464015:0;cd ../fw_tutorials/workflow
+: 1431464015:0;ls
+: 1431464016:0;ll
+: 1431464019:0;cat org_wf.yaml
+: 1431464510:0;python titan_test.py
+: 1431464701:0;ls
+: 1431464704:0;ls out
+: 1431464720:0;grep  -hoe '\(titan-.*\|#.*\)' out/block_2015-05-12-21-04-38-549124/*/titan_test*
+: 1431464805:0;ls
+: 1431464833:0;cat out/block_2015-05-12-21-04-38-549124/launcher_2015-05-12-21-05-01-129630
+: 1431464869:0;ca out/block_2015-05-12-21-04-38-549124/launcher_2015-05-12-21-05-01-129630/titan_test.o2351712
+: 1431464872:0;cat out/block_2015-05-12-21-04-38-549124/launcher_2015-05-12-21-05-01-129630/titan_test.o2351712
+: 1431464900:0;cat out/block_2015-05-12-21-04-38-549124/launcher_2015-05-12-21-05-28-220042/titan_test.o2351717
+: 1431465064:0;python titan_test.py
+: 1431465074:0;s
+: 1431465075:0;ls
+: 1431465080:0;cd out/block_2015-05-12-21-11-05-981640
+: 1431465081:0;ll
+: 1431465095:0;grep  -hoe '\(titan-.*\|#.*\)' */titan_test*
+: 1431465098:0;ll
+: 1431465110:0;cat launcher_2015-05-12-21-11-06-267713/titan_test.o2351720
+: 1431465150:0;mlaunch -h
+: 1431465286:0;python titan_test.py
+: 1431465297:0;ls
+: 1431465302:0;cd ../block_2015-05-12-21-14-48-493966
+: 1431465303:0;ll
+: 1431465308:0;ls launcher_2015-05-12-21-14-48-881857
+: 1431465313:0;ls
+: 1431465320:0;ls launcher_2015-05-12-21-14-48-881857
+: 1431465326:0;ls
+: 1431465329:0;ll
+: 1431465337:0;ll launcher_2015-05-12-21-14-48-881857
+: 1431465346:0;cat launcher_2015-05-12-21-14-48-881857/titan_test.o2351732
+: 1431465386:0;ll
+: 1431465392:0;cd launcher_2015-05-12-21-14-48-881857
+: 1431465394:0;ll
+: 1431465399:0;cd ../launcher_2015-05-12-21-14-54-443907
+: 1431465400:0;ll
+: 1431465403:0;cat titan_test.o2351733
+: 1431465410:0;cd ../launcher_2015-05-12-21-14-59-996592
+: 1431465411:0;ls
+: 1431465413:0;cat titan_test.o2351734
+: 1431465420:0;cd ../launcher_2015-05-12-21-15-05-377811
+: 1431465420:0;ls
+: 1431465424:0;cat titan_test.o2351735
+: 1431465430:0;ls
+: 1431465431:0;cd ..
+: 1431465432:0;ls
+: 1431465434:0;cd ..
+: 1431465434:0;ls
+: 1431465438:0;cd block_2015-05-12-21-14-48-493966
+: 1431465439:0;ls
+: 1431465444:0;cd launcher_2015-05-12-21-14-48-881857
+: 1431465448:0;ls ../
+: 1431465450:0;ll
+: 1431465455:0;ll ../
+: 1431465470:0;cd launcher_2015-05-12-21-15-07-413317
+: 1431465472:0;ll
+: 1431465476:0;cat FW.json
+: 1431465482:0;cd ..
+: 1431465483:0;ls
+: 1431465486:0;ls *
+: 1431465492:0;cat titan_test.o2351732
+: 1431465752:0;l
+: 1431465755:0;cat submission.pbs
+: 1431466448:0;python titan_test.py
+: 1431466460:0;ll
+: 1431466463:0;cd ..
+: 1431466463:0;ls
+: 1431466464:0;ll
+: 1431466467:0;cd ..
+: 1431466468:0;ll
+: 1431466475:0;cd block_2015-05-12-21-34-15-644307
+: 1431466477:0;ll
+: 1431466482:0;ls
+: 1431466483:0;ll
+: 1431466490:0;cd launcher_2015-05-12-21-34-
+: 1431466494:0;cd launcher_2015-05-12-21-34-16-416290
+: 1431466495:0;ll
+: 1431466500:0;cat titan_test.o2351801
+: 1431466662:0;cd ../../../bin
+: 1431466663:0;ls
+: 1431466664:0;ll
+: 1431466685:0;./qlaunch -h
+: 1431466692:0;module load python python_fireworks python_setuptools python_ipython
+: 1431466694:0;./qlaunch -h
+: 1431466813:0;cd ../source/fireworks/user_objects/firetasks/templates
+: 1431466813:0;ls
+: 1431466815:0;ll
+: 1431466821:0;cat advanced_template.txt
+: 1431466835:0;cd ../../queue_adapters
+: 1431466835:0;ls
+: 1431466836:0;ll
+: 1431466846:0;cat PBS_template.txt
+: 1431466856:0;cat pbs_newt_adapter.py
+: 1431466879:0;cd ..
+: 1431466880:0;ls
+: 1431466884:0;cd ..
+: 1431466885:0;ls
+: 1431466893:0;cd utilities/
+: 1431466894:0;ls
+: 1431466895:0;ll
+: 1431466905:0;cat fw_utilities.py
+: 1431466912:0;cat fw_serializers.py
+: 1431466916:0;cd ..
+: 1431466919:0;ls
+: 1431466928:0;cd scripts
+: 1431466928:0;ls
+: 1431466929:0;ll
+: 1431466938:0;cat mlaunch_run.py
+: 1431466989:0;man aprun
+: 1431523641:0;ssh titan-ext4
+: 1431523658:0;tmux list-se
+: 1431523663:0;tmux list-sessions
+: 1431523671:0;tmux -h
+: 1431523682:0;ssh titan-ext3
+: 1431523696:0;man tmux
+: 1431523700:0;tmux
+: 1431523714:0;tmux list-sessions
+: 1431523721:0;tmux attach
+: 1431524465:0;ls
+: 1431524487:0;mkdir bin
+: 1431524490:0;cd bin
+: 1431524491:0;ls
+: 1431524506:0;vim compute_node_task.sh
+: 1431524590:0;chmod a+x compute_node_task.sh
+: 1431524597:0;./compute_node_task.sh 1
+: 1431524602:0;vim compute_node_task.sh
+: 1431524823:0;./compute_node_task.sh 1
+: 1431524827:0;./compute_node_task.sh
+: 1431524835:0;vim compute_node_task.sh
+: 1431524858:0;./compute_node_task.sh
+: 1431524863:0;vim compute_node_task.sh
+: 1431524886:0;./compute_node_task.sh 1
+: 1431524893:0;vim compute_node_task.sh
+: 1431524932:0;./compute_node_task.sh 1
+: 1431524937:0;./compute_node_task.sh
+: 1431524941:0;vim compute_node_task.sh
+: 1431524969:0;./compute_node_task.sh
+: 1431524973:0;./compute_node_task.sh 1
+: 1431524981:0;vim compute_node_task.sh
+: 1431525034:0;./compute_node_task.sh 1
+: 1431525037:0;./compute_node_task.sh
+: 1431525203:0;pwd
+: 1431525381:0;cd ..
+: 1431525382:0;ls
+: 1431525386:0;python titan_test.py
+: 1431525394:0;ls
+: 1431525400:0;cd../../../
+: 1431525401:0;ls
+: 1431525403:0;cd ../../
+: 1431525404:0;ls
+: 1431525409:0;ll
+: 1431525428:0;cd block_2015-05-13-13-56-30-237647/
+: 1431525429:0;ll
+: 1431525433:0;cd launcher_2015-05-13-13-56-
+: 1431525437:0;cd launcher_2015-05-13-13-56-30-712378
+: 1431525437:0;ls
+: 1431525440:0;cat titan_test.o2352181
+: 1431525552:0;python titan_test.py
+: 1431525559:0;cd ../../
+: 1431525559:0;ls
+: 1431525560:0;ll
+: 1431525565:0;cd block_2015-05-13-13-59-13-817261
+: 1431525567:0;ls
+: 1431525567:0;ll
+: 1431525570:0;cd launcher_2015-05-13-13-59-14-048383
+: 1431525570:0;ls
+: 1431525572:0;ll
+: 1431525577:0;showq -w user=belhorn
+: 1431525589:0;ll
+: 1431525592:0;cat titan_test.o2352189
+: 1431525706:0;python titan_test.py
+: 1431525811:0;cd ../../block_2015-05-13-14-03-12-448436
+: 1431525812:0;ls
+: 1431525813:0;cd launcher_2015-05-13-14-03-
+: 1431525816:0;cd launcher_2015-05-13-14-03-12-678089
+: 1431525817:0;ll
+: 1431525821:0;cat titan_test.o2352197
+: 1431525826:0;cd ..
+: 1431525828:0;grep  -hoe '\(titan-.*\|#.*\)' */titan_test*
+: 1431525860:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431526620:0;python titan_test.py
+: 1431526728:0;cd ../block_2015-05-13-14-18-36-153135
+: 1431526730:0;ll
+: 1431526739:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431526789:0;vim bin/compute_node_task.sh
+: 1431526813:0;python titan_test.py
+: 1431526816:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431526826:0;ls
+: 1431526827:0;ll
+: 1431526839:0;cd ..
+: 1431526840:0;ls
+: 1431526841:0;ll
+: 1431526852:0;showq -w user=belhorn
+: 1431526990:0;qstat -a
+: 1431526997:0;qstat -a | grep belh
+: 1431527038:0;man qdel
+: 1431527133:0;qstat -a | grep belhorn | grep -hoe '^[0-9]*'
+: 1431527154:0;ll
+: 1431527158:0;qstat -a | grep belhorn | grep -hoe '^[0-9]*'
+: 1431527166:0;ls
+: 1431527171:0;top
+: 1431527178:0;ps | grep python
+: 1431527186:0;ps | grep launch
+: 1431527189:0;qstat -a | grep belhorn | grep -hoe '^[0-9]*'
+: 1431527196:0;ps -a
+: 1431527206:0;ps | grep launch
+: 1431527213:0;ps | grep python
+: 1431527218:0;ps -a
+: 1431527223:0;ps | grep python
+: 1431527227:0;ps -a | grep python
+: 1431527237:0;qstat -a | grep belhorn | grep -hoe '^[0-9]*'
+: 1431527244:0;ll
+: 1431527251:0;cd block_2015-05-13-14-20-15-466879
+: 1431527252:0;ls
+: 1431527255:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431527265:0;ll
+: 1431527273:0;cat launcher_2015-05-13-14-20-21-056241/titan_test.o2352224
+: 1431527288:0;python titan_test.py
+: 1431527296:0;ls
+: 1431527304:0;cd ../block_2015-05-13-14-28-09-884298
+: 1431527305:0;ls
+: 1431527306:0;ll
+: 1431527315:0;ps -a | grep python
+: 1431527330:0;htop
+: 1431527350:0;find /sw -iname 'htop'
+: 1431527367:0;module avail htop
+: 1431527377:0;module avail 
+: 1431527387:0;module avail | top
+: 1431527393:0;module avail | grep top
+: 1431527422:0;less /sw/tools/bin/environment.sh 
+: 1431527443:0;ls
+: 1431527446:0;ll
+: 1431527449:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431527470:0;clear
+: 1431527472:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431537373:0;tmux attach
+: 1431537379:0;ssh titan-ext3
+: 1431537382:0;tmux attach
+: 1431537432:0;ls
+: 1431537435:0;ll
+: 1431537442:0;mkdir templates
+: 1431537448:0;mv TitanQueueTemplate.txt templates/.
+: 1431537450:0;cd templates/m
+: 1431537452:0;cd templates
+: 1431537452:0;ls
+: 1431537462:0;cat TitanQueueTemplate.txt
+: 1431537465:0;git status
+: 1431537478:0;cd
+: 1431537478:0;ll
+: 1431537490:0;la
+: 1431538920:0;mkdir .zsh
+: 1431538923:0;cd .zsh
+: 1431538924:0;ls
+: 1431538931:0;git clone https://github.com/mpbelhorn/zsh-git-prompt.git git-prompt
+: 1431538933:0;ls
+: 1431538942:0;cd 
+: 1431538944:0;ls
+: 1431538948:0;cd fireworks/titan_fireworks_demo
+: 1431538951:0;ls
+: 1431538968:0;git status
+: 1431538973:0;cd
+: 1431538977:0;cd .zsh/git-prompt
+: 1431538982:0;vim gitstatus.py
+: 1431538988:0;which python2
+: 1431539038:0;git rev-list --shortstat
+: 1431539049:0;git rev-list --shortstat HEAD
+: 1431539058:0;git --version
+: 1431539084:0;which git
+: 1431539133:0;git symbolic-ref HEAD
+: 1431539203:0;git config branch.master.remote
+: 1431539228:0;git config branch.
+: 1431539238:0;git config 
+: 1431539267:0;git config branch -h
+: 1431539291:0;git config branch.master
+: 1431539309:0;git config branch.master.remote 
+: 1431539399:0;ls
+: 1431539403:0;git status
+: 1431539442:0;python2 --version
+: 1431539462:0;which python3
+: 1431539470:0;ls /usr/bin
+: 1431539479:0;ls /usr/bin | grep pyth
+: 1431539521:0;module load python python_fireworks python_setuptools python_ipython
+: 1431539525:0;which python
+: 1431539530:0;ls
+: 1431539548:0;git status
+: 1431539570:0;vim ~/.zprofile
+: 1431539588:0;ls
+: 1431539601:0;cd
+: 1431539601:0;ll
+: 1431539613:0;vim .zshrc
+: 1431539684:0;ls
+: 1431539687:0;ll
+: 1431539717:0;vim .zshrc
+: 1431539777:0;vim .post_profile
+: 1431539799:0;which module
+: 1431539884:0;ls
+: 1431539886:0;cd
+: 1431539887:0;ll
+: 1431539891:0;which python
+: 1431539899:0;vim .zprofile
+: 1431539928:0;cd /opt/modules/
+: 1431539929:0;ll
+: 1431539949:0;cd default/bin
+: 1431539949:0;ls
+: 1431539951:0;ll
+: 1431539954:0;cat modulecmd
+: 1431539992:0;cd /opt/modules/default/bin
+: 1431539997:0;./modulecmd -h
+: 1431540011:0;./modulecmd zsh list
+: 1431540047:0;ls
+: 1431540050:0;which python
+: 1431540077:0;ls
+: 1431540079:0;ll
+: 1431540082:0;which python
+: 1431540160:0;ls
+: 1431540169:0;which python
+: 1431540253:0;vim .zshrc
+: 1431540300:0;which python
+: 1431540301:0;ll
+: 1431540353:0;tmux
+: 1431540356:0;ls
+: 1431540372:0;cd fireworks/titan_fireworks_demo
+: 1431540373:0;ls
+: 1431540387:0;gitstatus
+: 1431540391:0;git status
+: 1431540393:0;ll
+: 1431540397:0;cd templates
+: 1431540397:0;ls
+: 1431540402:0;cat TitanQueueTemplate.txt
+: 1431540437:0;mv TitanQueueTemplate.txt titan_pbs.template
+: 1431540438:0;ll
+: 1431540459:0;cd ..
+: 1431540467:0;vim titan_test.py
+: 1431540520:0;cd fireworks/titan_fireworks_demo/templates
+: 1431540531:0;mv titan_pbs.template submit_titan.template
+: 1431540535:0;clear
+: 1431540535:0;ll
+: 1431540538:0;cat submit_titan.template
+: 1431540547:0;ls
+: 1431540548:0;cd .
+: 1431540550:0;cd ..
+: 1431540550:0;ls
+: 1431540551:0;ll
+: 1431540553:0;cat bin
+: 1431540556:0;ls bin
+: 1431540563:0;ls logs
+: 1431540570:0;ls run
+: 1431540587:0;rm -fr run
+: 1431540588:0;ll
+: 1431540637:0;git add bin/
+: 1431540643:0;git status
+: 1431540656:0;rm logs/qadapter_TitanTest-*
+: 1431540658:0;ll
+: 1431540669:0;ls
+: 1431540670:0;ll
+: 1431540682:0;vim .gitignore
+: 1431540704:0;git add templates
+: 1431540705:0;ll
+: 1431540740:0;mv titan_test.py titan_wf.py
+: 1431540741:0;ll
+: 1431540746:0;git add titan_wf.py
+: 1431540747:0;ll
+: 1431540749:0;git status
+: 1431540755:0;git add .gitignore
+: 1431540756:0;ll
+: 1431540796:0;git commit -m "Initial commit of titan/fireworks workflow demonstration."
+: 1431540798:0;ll
+: 1431540806:0;git status
+: 1431540818:0;ll
+: 1431540820:0;cd ..
+: 1431540821:0;ll
+: 1431541972:0;mkdir owfofwo
+: 1431541974:0;ls
+: 1431541975:0;ll
+: 1431542020:0;mv owfofwo olcf_fw
+: 1431542021:0;ll
+: 1431542561:0;mv olcf_fw athena
+: 1431542562:0;ll
+: 1431542581:0;mv titan_wf.py athena/.
+: 1431542583:0;cd athena
+: 1431542583:0;ls
+: 1431542584:0;ll
+: 1431542595:0;vim README.md
+: 1431543000:0;ll
+: 1431543036:0;mv titan_wf.py demo.py
+: 1431543037:0;ll
+: 1431543054:0;ls
+: 1431543063:0;vim queues.py
+: 1431543358:0;ls
+: 1431543358:0;ll
+: 1431543371:0;mkdir demo
+: 1431543372:0;ll
+: 1431543377:0;cd ..
+: 1431543378:0;ls
+: 1431543388:0;mv titan_fireworks_demo athena
+: 1431543390:0;ll
+: 1431543394:0;cd athena
+: 1431543395:0;ls
+: 1431543395:0;ll
+: 1431543412:0;rmdir logs
+: 1431543413:0;ll
+: 1431543426:0;mv templates athena/.
+: 1431543427:0;ll
+: 1431543430:0;git status
+: 1431543437:0;git rm titan_wf.py
+: 1431543443:0;git rm templates/submit_titan.template
+: 1431543446:0;git add athena/
+: 1431543449:0;git status
+: 1431543480:0;git commit -m "Renamed package to 'Athena' and added initial documentation."
+: 1431543494:0;git checkout -b development
+: 1431543495:0;ll
+: 1431543498:0;cd athena/h
+: 1431543500:0;cd athena
+: 1431543500:0;ls
+: 1431543502:0;ll
+: 1431543515:0;vim demo.py
+: 1431544577:0;git status
+: 1431544623:0;ls
+: 1431544626:0;rm queues.py
+: 1431544630:0;ll
+: 1431544643:0;git status
+: 1431544651:0;git rm athena/queues.py
+: 1431545825:0;ls
+: 1431545833:0;python demo.py
+: 1431545840:0;module load python python_fireworks python_setuptools python_ipython
+: 1431545844:0;python demo.py
+: 1431547111:0;showq -w user=belhorn
+: 1431547133:0;python demo.py
+: 1431547163:0;ls
+: 1431547177:0;cd $MEMBERWORK/stf007/
+: 1431547178:0;ls
+: 1431547179:0;ll
+: 1431547185:0;cd out/block_2015-05-13-19-59-01-826232
+: 1431547186:0;ll
+: 1431547188:0;cd ..
+: 1431547188:0;ls
+: 1431547202:0;ll
+: 1431547206:0;cd ..
+: 1431547207:0;s
+: 1431547208:0;ls
+: 1431547210:0;ll
+: 1431547226:0;mkdir examples
+: 1431547229:0;cd examples
+: 1431547229:0;ls
+: 1431547238:0;cp ~/.fireworks/FW_config.yaml .
+: 1431547241:0;vim FW_config.yaml
+: 1431547346:0;ls
+: 1431547352:0;cd block_2015-05-12-21-04-38-549124/launcher_2015-05-12-21-04-39-550794
+: 1431547353:0;ls
+: 1431547602:0;module load python python_fireworks python_setuptools python_ipython
+: 1431547607:0;rlaunch -h
+: 1431550210:0;tmux attach
+: 1431550217:0;git status
+: 1431550233:0;git rm ../athena/queues.py
+: 1431550242:0;cd ..
+: 1431550242:0;ls
+: 1431550747:0;git status
+: 1431550810:0;rm athena/queues.py
+: 1431550817:0;git rm athena/queues.py
+: 1431550824:0;ll
+: 1431550843:0;module load python python_fireworks python_setuptools python_ipython
+: 1431604621:0;tmux -S ~/.tmux.socket
+: 1431604667:0;tmux info
+: 1431604689:0;tmux -S ./.tmux.socket attach
+: 1431604721:0;ls
+: 1431604727:0;ll .tmux.socket
+: 1431604784:0;tmux -S ./.tmux.socket attach
+: 1431604901:0;ssh titan-ext3
+: 1431604906:0;tmux info
+: 1431605085:0;mkdir .bash_completion.d
+: 1431605088:0;cd .bash_completion.d
+: 1431605091:0;ls
+: 1431605107:0;ll /etc/bash_completion.d
+: 1431605120:0;vim tmux.sh
+: 1431605142:0;ll
+: 1431605150:0;cd .
+: 1431605151:0;cd ..
+: 1431605157:0;source .bash_completion.d/tmux.sh
+: 1431605174:0;tmux info
+: 1431605177:0;tmux
+: 1431605208:0;tmux info
+: 1431605220:0;tmux attach-session
+: 1431605227:0;man tmux
+: 1431607370:0;ls
+: 1431607378:0;cd fireworks/athena/athena/
+: 1431607381:0;git status
+: 1431607384:0;ll
+: 1431607392:0;git rm queues.py
+: 1431607407:0;git add demo.py
+: 1431607410:0;git status
+: 1431607420:0;cat __init__.py
+: 1431607487:0;git commit -m "Removed queues module in favor of different organization."
+: 1431607491:0;git status
+: 1431607511:0;vim demo.py
+: 1431607539:0;ls
+: 1431607578:0;vim batchjob.py
+: 1431608363:0;ll
+: 1431608927:0;ls
+: 1431608934:0;module load python python_fireworks python_setuptools python_ipython
+: 1431609043:0;python demo.py
+: 1431609513:0;vim demo.py
+: 1431609538:0;python demo.py
+: 1431609575:0;cd /lustre/atlas/scratch/belhorn/stf007/out/block_2015-05-13-19-5
+: 1431609617:0;cd /lustre/atlas/scratch/belhorn/stf007/out/block_2015-05-13-19-59-01-826232
+: 1431609618:0;ls
+: 1431609621:0;cd ..
+: 1431609622:0;ll
+: 1431609628:0;cd block_2015-05-14-13-19-00-726368
+: 1431609629:0;ll
+: 1431609673:0;cd ..
+: 1431609674:0;ll
+: 1431609676:0;cat bin
+: 1431609679:0;ls bin
+: 1431609680:0;ll
+: 1431609691:0;pwd
+: 1431609719:0;python demo.py
+: 1431609722:0;ls
+: 1431609724:0;cd athena
+: 1431609726:0;python demo.py
+: 1431609733:0;ll
+: 1431609735:0;showq -w user=belhorn
+: 1431609753:0;ll
+: 1431609881:0;ls templates
+: 1431609890:0;python demo.py
+: 1431609902:0;ll
+: 1431609903:0;cd ..
+: 1431609903:0;ls
+: 1431609904:0;ll
+: 1431609923:0;cd block_2015-05-14-13-24-52-572580
+: 1431609924:0;ls
+: 1431609925:0;ll
+: 1431609964:0;pwd
+: 1431609999:0;ls /ccs/home/belhorn/fireworks/athena/bin
+: 1431610036:0;python demo.py
+: 1431610094:0;cd ../block_2015-05-14-13-27-18-136193
+: 1431610095:0;ll
+: 1431610098:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431610677:0;python demo.py
+: 1431611297:0;cd ..
+: 1431611299:0;ld
+: 1431611300:0;ls
+: 1431611309:0;cd block_2015-05-14-13-48-04-679015
+: 1431611309:0;ls
+: 1431611311:0;ll
+: 1431611312:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431611316:0;cd launcher_2015-05-14-13-48-04-914563
+: 1431611317:0;ll
+: 1431611320:0;cat titan_test.o2353290
+: 1431611798:0;cd .
+: 1431611799:0;cd ..
+: 1431611800:0;ls
+: 1431611801:0;cd ..
+: 1431611802:0;ls
+: 1431611806:0;cd ../
+: 1431611808:0;ls
+: 1431611821:0;cd
+: 1431611823:0;cd .fireworks
+: 1431611824:0;ls
+: 1431611833:0;mv FW_config.yaml FW_config.yaml.bak
+: 1431611836:0;ll
+: 1431611861:0;python titan_test.py
+: 1431611864:0;ls
+: 1431611871:0;python demo.py
+: 1431612181:0;ll
+: 1431612189:0;cd ../launcher_2015-05-14-14-02-53-291870
+: 1431612190:0;ll
+: 1431612202:0;cat Unnamed_FW.o2353324
+: 1431612234:0;python demo.py
+: 1431612258:0;ll
+: 1431612268:0;cat FW_submit.script
+: 1431612337:0;python demo.py
+: 1431612347:0;ll
+: 1431612353:0;cd ../launcher_2015-05-14-14-05-39-404431/
+: 1431612354:0;ll
+: 1431612362:0;cat FW_submit.script
+: 1431612366:0;ll
+: 1431612372:0;cat FW_offline.json
+: 1431612385:0;cat FW.json
+: 1431612393:0;less FW.json
+: 1431612410:0;ll
+: 1431612414:0;cat Unnamed_FW.o2353325
+: 1431612432:0;python demo.py
+: 1431612458:0;cd ..
+: 1431612459:0;ls
+: 1431612461:0;ll
+: 1431612472:0;cd launcher_2015-05-14-14-07-14-010564
+: 1431612473:0;ll
+: 1431612476:0;cat Unnamed_FW.o2353326
+: 1431612666:0;lpad -h
+: 1431612707:0;lpad -l ~/.fireworks/FW_config.yaml.bak recover_offline
+: 1431612754:0;mv FW_config.yaml.bak shared_config.yaml
+: 1431612769:0;lpad -l ~/.fireworks/shared_config.yaml recover_offline
+: 1431612795:0;lpad -h
+: 1431612808:0;cat shared_config.yaml
+: 1431612831:0;lpad -l ~/fireworks/titan_test/config/titan_lpad.yaml recover_offline
+: 1431612848:0;ls
+: 1431612856:0;cd ../../titan_test/config
+: 1431612856:0;ls
+: 1431612860:0;cat titan_lpad.yaml
+: 1431612868:0;vim titan_lpad.yaml
+: 1431612883:0;lpad -l ~/fireworks/titan_test/config/titan_lpad.yaml recover_offline
+: 1431612905:0;ipython
+: 1431613146:0;lpad -l ~/fireworks/titan_test/config/titan_lpad.yaml get_fws
+: 1431613261:0;lpad -l ~/fireworks/titan_test/config/titan_lpad.yaml get_fws -d all
+: 1431613758:0;python demo.py
+: 1431613769:0;ll
+: 1431613786:0;cd ../../block_2015-05-14-13-48-04-679015
+: 1431613788:0;ll
+: 1431613830:0;cd ../block_2015-05-14-13-48-04-679015
+: 1431613831:0;ll
+: 1431613836:0;cd launcher_2015-05-14-13-48-04-914563
+: 1431613837:0;ll
+: 1431613840:0;cat titan_test.o2353290
+: 1431613852:0;cd ..
+: 1431613852:0;ls
+: 1431613864:0;cd launcher_2015-05-14-14-29-21-020493
+: 1431613865:0;ll
+: 1431613868:0;cat Unnamed_FW.o2353331
+: 1431614110:0;python demo.py
+: 1431615059:0;ipython
+: 1431616387:0;cd
+: 1431616394:0;cd fireworks/athena/athena
+: 1431616396:0;ls
+: 1431616397:0;ll
+: 1431616398:0;clear
+: 1431616399:0;ls
+: 1431616401:0;clear
+: 1431616402:0;ll
+: 1431616410:0;module load python python_fireworks python_setuptools python_ipython
+: 1431616414:0;python demo.py
+: 1431616465:0;ll
+: 1431617177:0;python demo.py
+: 1431617182:0;ll
+: 1431617184:0;cd .
+: 1431617185:0;cd ..
+: 1431617188:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431617206:0;grep  -hoe '\(Task.*running.*\)' launcher_2015-05-14-13-48-04-914563 launcher_2015-05-14-13-48-10-283593 launcher_2015-05-14-13-48-15-636386 launcher_2015-05-14-13-48-20-999996 launcher_2015-05-14-13-48-26-358872 launcher_2015-05-14-13-48-31-714604 launcher_2015-05-14-13-48-37-073473 launcher_2015-05-14-13-48-42-424977 launcher_2015-05-14-13-48-47-789443 launcher_2015-05-14-13-48-53-141486 launcher_2015-05-14-13-58-00-672968 launcher_2015-05-14-14-02-53-291870 launcher_2015-05-14-14-03-56-556289 launcher_2015-05-14-14-05-39-404431 launcher_2015-05-14-14-07-14-010564 launcher_2015-05-14-14-29-21-020493 launcher_2015-05-14-14-35-12-220592 launcher_2015-05-14-14-35-39-278757 launcher_2015-05-14-14-38-39-117115 launcher_2015-05-14-15-13-36-533049 launcher_2015-05-14-15-13-54-031908 launcher_2015-05-14-15-13-59-622880 launcher_2015-05-14-15-14-20-261239 launcher_2015-05-14-15-14-27-141087 launcher_2015-05-14-15-14-32-735969 launcher_2015-05-14-15-14-51-206789 launcher_2015-05-14-15-15-03-333486 launcher_2015-05-14-15-15-30-646508 launcher_2015-05-14-15-15-51-664763 launcher_2015-05-14-15-26-19-479143 
+: 1431617276:0;grep  -hoe '\(Task.*running.*\)' launcher*
+: 1431617281:0;ls launcher_2015-05-14-13-48-04-914563
+: 1431617297:0;grep  -hoe '\(Task.*running.*\)' launcher*/titan_test*
+: 1431617302:0;cat launcher_2015-05-14-13-48-04-914563/titan_test.o2353290
+: 1431617326:0;ll
+: 1431617336:0;cd ../
+: 1431617337:0;ls
+: 1431617338:0;ll
+: 1431617348:0;cd block_2015-05-14-13-48-04-679015
+: 1431617349:0;ll
+: 1431617473:0;grep  -hoe '\(Task.*running.*\)' launcher*/titan_test*
+: 1431617483:0;grep  -hoe '\(Task.*running.*\)' */titan_test*
+: 1431617498:0;ls
+: 1431617557:0;vim ~/fireworks/titan_test/config/titan_lpad.yaml
+: 1431617573:0;ll
+: 1431617589:0;showq -w user=belhorn
+: 1431617615:0;cd launcher_2015-05-14-15-27-38-058629
+: 1431617616:0;ll
+: 1431617620:0;cat Unnamed_FW.o2353401
+: 1431617655:0;grep  -hoe '\(Task.*running.*\)' */.o*
+: 1431617661:0;grep  -hoe '\(Task.*runnincd ..g.*\)' */.o*
+: 1431617665:0;cd .
+: 1431617666:0;cd ..
+: 1431617668:0;grep  -hoe '\(Task.*running.*\)' */.o*
+: 1431617672:0;ll
+: 1431617687:0;grep  -hoe '\(Task.*running.*\)' launcher*/.o*
+: 1431617709:0;grep  -hoe '\(Task.*running.*\)' **
+: 1431617715:0;grep  -hoe '\(Task.*running.*\)' **/*
+: 1431617729:0;ll
+: 1431617746:0;rm -fr launcher_2015-05-14-15-28-57-970675
+: 1431617748:0;ll
+: 1431617754:0;python demo.py
+: 1431617992:0;ll
+: 1431618004:0;cd launcher_2015-05-14-15-39-04-521558
+: 1431618005:0;ll
+: 1431618010:0;cd ..
+: 1431618011:0;ll
+: 1431618018:0;ls
+: 1431618027:0;grep  -hoe '\(Task.*running.*\)' **/*
+: 1431618043:0;ll
+: 1431618074:0;rm -fr launcher_2015-05-14-13-*
+: 1431618075:0;ll
+: 1431618084:0;rm -fr launcher_2015-05-14-14-*
+: 1431618086:0;ll
+: 1431618119:0;rm -fr launcher_2015-05-14-15-13-*
+: 1431618120:0;l
+: 1431618133:0;rm -fr launcher_2015-05-14-15-14-*
+: 1431618140:0;rm -fr launcher_2015-05-14-15-15-*
+: 1431618141:0;ll
+: 1431618166:0;rm -fr launcher_2015-05-14-15-2*
+: 1431618167:0;ll
+: 1431618173:0;grep  -hoe '\(Task.*running.*\)' **/*
+: 1431618190:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431618462:0;ls
+: 1431618465:0;cd launcher_2015-05-14-15-35-56-909702
+: 1431618466:0;ls
+: 1431618475:0;cat FW
+: 1431618479:0;cat FW.json
+: 1431618486:0;grep pass *
+: 1431618487:0;ll
+: 1431618499:0;clear
+: 1431618504:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431619038:0;ls
+: 1431619041:0;vim ~/fireworks/titan_test/config/titan_lpad.yaml
+: 1431619089:0;mv shared_config.yaml FW_config.yaml
+: 1431619106:0;mv ~/fireworks/titan_test/config/* .
+: 1431619107:0;ll
+: 1431619111:0;rm TitanAdapterTemplate.txt
+: 1431619114:0;ll
+: 1431619121:0;vim FW_config.yaml
+: 1431619160:0;ll
+: 1431619190:0;cat titan_lpad.yaml
+: 1431619201:0;ll
+: 1431619227:0;cat titan_qadapter.yaml
+: 1431619252:0;l
+: 1431619253:0;ll
+: 1431619276:0;mkdir specific_configs
+: 1431619292:0;mv titan_* specific_configs/.
+: 1431619293:0;ll
+: 1431619297:0;vim FW_config.yaml
+: 1431619320:0;ll
+: 1431619358:0;vim specific_configs/titan_lpad.yaml
+: 1431619391:0;python demo.py
+: 1431619436:0;ll
+: 1431619439:0;vim FW_config.yaml
+: 1431619535:0;ls
+: 1431619544:0;mv specific_configs config
+: 1431619545:0;ll
+: 1431619547:0;cd config
+: 1431619547:0;ls
+: 1431619548:0;ll
+: 1431619591:0;cp titan_lpad.yaml titan_lpad_nopw.yaml
+: 1431619596:0;vim titan_lpad_nopw.yaml
+: 1431619621:0;cat titan_qadapter.yaml
+: 1431619716:0;python demo.py
+: 1431619729:0;ls
+: 1431619736:0;cd ../block_2015-05-14-16-08-38-555106
+: 1431619737:0;ll
+: 1431619740:0;cd launcher_2015-05-14-16-08-38-763151
+: 1431619741:0;ls
+: 1431619742:0;ll
+: 1431619745:0;cat Unnamed_FW.o2353443
+: 1431619755:0;cd ..
+: 1431619759:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431619774:0;ll
+: 1431619804:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431619807:0;ll
+: 1431619811:0;ls
+: 1431619813:0;cd ..
+: 1431619813:0;ls
+: 1431619815:0;ll
+: 1431619873:0;cd block_2015-05-14-16-10-16-165352
+: 1431619874:0;ll
+: 1431619878:0;ls
+: 1431619882:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431619887:0;cd ..
+: 1431619888:0;ls
+: 1431619899:0;cd block_2015-05-14-16-09-04-361814 
+: 1431619900:0;ll
+: 1431619907:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431620582:0;python demo.py
+: 1431620698:0;ll
+: 1431620700:0;cd ..
+: 1431620701:0;ll
+: 1431624119:0;cd block_2015-05-14-16-10-16-165352 
+: 1431624120:0;ll
+: 1431624123:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431624988:0;l
+: 1431624989:0;cd ..
+: 1431624990:0;ll
+: 1431624997:0;rm block_2015-05-1* -fr
+: 1431624999:0;ll
+: 1431625005:0;python demo.py
+: 1431625039:0;ll
+: 1431625043:0;rm -fr block_2015-05-14-17-36-47-285063
+: 1431625044:0;yy
+: 1431625045:0;ll
+: 1431625056:0;python demo.py
+: 1431625303:0;ll
+: 1431625308:0;cd block_2015-05-14-17-37-38-048571/launcher_2015-05-14-17-37-38-358603
+: 1431625309:0;ll
+: 1431625313:0;cd ../launcher_2015-05-14-17-41-10-219185
+: 1431625314:0;ll
+: 1431625318:0;cat Unnamed_FW.o2353523
+: 1431626152:0;python demo.py
+: 1431626902:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/
+: 1431626903:0;ls
+: 1431626909:0;cd fw_tutorials/python
+: 1431626909:0;ls
+: 1431626911:0;ll
+: 1431626914:0;vim python_examples.py
+: 1431628946:0;python demo.py
+: 1431629296:0;ll
+: 1431629304:0;cd ../../../
+: 1431629304:0;ll
+: 1431629309:0;cd out
+: 1431629309:0;ll
+: 1431629319:0;cd block_2015-05-14-17-37-38-048571
+: 1431629320:0;ll
+: 1431629327:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431629363:0;ll
+: 1431629367:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431629369:0;cd ..
+: 1431629370:0;ll
+: 1431629376:0;cd block_2015-05-14-17-37-38-048571
+: 1431629377:0;ll
+: 1431629384:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431629451:0;top
+: 1431629588:0;ll
+: 1431629590:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431629660:0;ll
+: 1431629662:0;cd ..
+: 1431629663:0;ll
+: 1431629684:0;rm -fr block_2015-05-14-17-37-38-048571
+: 1431629686:0;ll
+: 1431629691:0;rm *
+: 1431629698:0;y
+: 1431629699:0;ll
+: 1431629701:0;clear
+: 1431629702:0;ll
+: 1431629704:0;rm FW.json
+: 1431629706:0;ll
+: 1431629707:0;clear
+: 1431629708:0;ll
+: 1431629727:0;python demo.py
+: 1431634665:0;ll
+: 1431634670:0;cd block_2015-05-14-18-55-29-502733
+: 1431634671:0;ll
+: 1431634782:0;find . -type d -mtime -10m
+: 1431634826:0;find . -type d -mtime +10m
+: 1431634835:0;find . -type d -mtime +10s
+: 1431634842:0;man find
+: 1431634923:0;find . -type d -cmin 10
+: 1431634931:0;find . -type d -cmin 1
+: 1431634937:0;find . -type d -cmin 5
+: 1431634952:0;find . -type d -cmin 7
+: 1431634956:0;find . -type d -cmin 2
+: 1431634963:0;find . -type d -cmin +2
+: 1431634969:0;find . -type d -cmin -10
+: 1431635030:0;find . -type d -cmin -10 -exec grep  -hoe '\(Task.*running.*\)' {}/*.o* \;
+: 1431635041:0;find . -type d -cmin -10 -exec grep  -hoe '\(Task.*running.*\)' { }/*.o* \;
+: 1431635052:0;find . -type d -cmin -10 -exec 'grep  -hoe '\(Task.*running.*\)' { }/*.o* \;'
+: 1431635071:0;find . -type d -cmin -10 -exec grep  -hoe '\(Task.*running.*\)' \{\}/*.o* \;
+: 1431635089:0;find . -type d -cmin -10 -exec grep  -hoe '\(Task.*running.*\)' {}/* \;
+: 1431635100:0;find . -type d -cmin -10 -exec grep  -hoe '\(Task.*running.*\)' {} \;
+: 1431635105:0;ll
+: 1431635119:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431635303:0;python demo.py
+: 1431635479:0;ll
+: 1431635482:0;cd ..
+: 1431635482:0;ll
+: 1431635487:0;cd block_2015-05-14-18-55-29-502733
+: 1431635489:0;ll
+: 1431635491:0;cd ..
+: 1431635492:0;ll
+: 1431635501:0;cd block_2015-05-14-20-31-12-491854
+: 1431635502:0;ll
+: 1431635621:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431635642:0;top
+: 1431635733:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1431695098:0;ll
+: 1431695112:0;cat mongo.patch
+: 1431695121:0;cd fireworks/athena
+: 1431695122:0;ls
+: 1431695130:0;tmux list-sessions
+: 1431695140:0;ssh titan-ext2
+: 1431695147:0;tmux list-sessions
+: 1431695152:0;tmux attach
+: 1431697154:0;ssh titan-ex2
+: 1431697158:0;ssh titan-ext2
+: 1431697163:0;tmux attach
+: 1431699099:0;ls
+: 1431699106:0;cd
+: 1431699108:0;ll
+: 1431699314:0;cd /ccs/home/div
+: 1431699467:0;ls
+: 1431699478:0;cd nfsmgmt
+: 1431699489:0;cd nfsmgmt.ccs.ornl.gov
+: 1431699499:0;ssh nfsmgmt
+: 1431699521:0;ls
+: 1431699555:0;pwd
+: 1431699561:0;ls
+: 1431699563:0;cd tickets
+: 1431699563:0;ls
+: 1431699616:0;sudo cp -r  ~div/src/acesiii .
+: 1431699752:0;ls
+: 1431699753:0;ll
+: 1431699773:0;mkdir 251676
+: 1431699780:0;ll
+: 1431699808:0;sudo chown belhorn:belhorn -R acesiii
+: 1431699811:0;ll
+: 1431699823:0;mv 251676 acesiii/.
+: 1431699824:0;ll
+: 1431699837:0;mv acesiii/251676 .
+: 1431699844:0;mv acesiii 251676/.
+: 1431699845:0;ll
+: 1431699847:0;cd 251676
+: 1431699848:0;ls
+: 1431699854:0;ll
+: 1431699864:0;cd acesiii/
+: 1431699865:0;ls
+: 1431699886:0;ll
+: 1431699892:0;vim Makefile
+: 1431699953:0;ls
+: 1431699964:0;make clean; make
+: 1431699993:0;ls
+: 1431700011:0;s
+: 1431700012:0;ls
+: 1431700016:0;cd tickets/251676
+: 1431700017:0;ls
+: 1431700035:0;ll
+: 1431700037:0;cd acesiii
+: 1431700038:0;ls
+: 1431700041:0;make
+: 1431700627:0;echo nfsmgmt >> .ssh/config
+: 1431700633:0;vim .ssh/config
+: 1431700766:0;man ssh_config
+: 1431700902:0;vim .ssh/config
+: 1431706141:0;ls
+: 1431706142:0;ll
+: 1431706163:0;cat INSTALL
+: 1431706226:0;grep GNU *
+: 1431706247:0;ll
+: 1431706261:0;vim configure
+: 1431706313:0;vim config.log
+: 1431706651:0;man CC
+: 1431707858:0;ls
+: 1431708341:0;ll
+: 1431708574:0;cd src/sial_compiler
+: 1431708576:0;ls
+: 1431709353:0;ll
+: 1431709364:0;cd ../bin
+: 1431709371:0;cd ../../bin
+: 1431709372:0;ls
+: 1431709380:0;ll
+: 1431709383:0;cat test_results
+: 1431709393:0;ls
+: 1431709396:0;l
+: 1431709397:0;ll
+: 1431709401:0;cd ..
+: 1431709402:0;ls
+: 1431709404:0;ll
+: 1431709554:0;grep -e ccsd_rhf_ao_sv1_diis5.sial **
+: 1431709562:0;grep -e ccsd_rhf_ao_sv1_diis5.sial **/*
+: 1431709590:0;grep -e '.*ccsd_rhf_ao_sv1_diis5.*' **/*
+: 1431709644:0;grep -e '.*ccsd_rhf_ao_sv1_diis5\.sial' **/*
+: 1431709903:0;ll
+: 1431709908:0;bin 
+: 1431709909:0;ls
+: 1431709913:0;./sial
+: 1431709934:0;cd ../tests
+: 1431709934:0;ls
+: 1431709938:0;cd ..
+: 1431709938:0;ls
+: 1431709942:0;cd test_compare
+: 1431709944:0;ls
+: 1431709947:0;l
+: 1431709949:0;cd ..
+: 1431709950:0;ll
+: 1431709965:0;vim config.h
+: 1431709971:0;cd lib
+: 1431709972:0;ls
+: 1431709974:0;cd ..
+: 1431710000:0;man test
+: 1431710022:0;ll
+: 1431710027:0;tmux
+: 1431710034:0;make
+: 1431710068:0;cd src/aces
+: 1431710070:0;ls
+: 1431710073:0;cd aces_sial
+: 1431710074:0;ls
+: 1431710110:0;vim Makefile
+: 1431710193:0;ls
+: 1431710196:0;cd ccsd
+: 1431710197:0;ls
+: 1431710198:0;ll
+: 1431710218:0;vim ccsd_rhf_ao_sv1_diis5.sial
+: 1431710305:0;ll
+: 1431710312:0;cd ..
+: 1431710313:0;ls
+: 1431710318:0;cat default_jobflows
+: 1431710386:0;ssh nfsmgmt
+: 1431710402:0;cd ~/.ssh
+: 1431710403:0;ll
+: 1431710415:0;chmod go-wr config
+: 1431710417:0;ll
+: 1431710423:0;ssh nfsmgmt
+: 1431710443:0;ssh hub
+: 1431710558:0;ssh nfsmgmt
+: 1431710570:0;vim .ssh/config
+: 1431710626:0;ssh nfsmgmt
+: 1431710648:0;ls
+: 1431710671:0;sudo ls ~div
+: 1431710688:0;sudo ls ~div/src/ACES_SUP
+: 1431710759:0;sudo cp ~div/src/ACES_SUP/sial ~/tickets/251676/acesiii/bin/.
+: 1431710800:0;cd
+: 1431710810:0;cd tickets/251676/acesiii/
+: 1431710811:0;make
+: 1431712902:0;module load acml
+: 1431712904:0;make
+: 1431712992:0;module list
+: 1431714462:0;cd
+: 1431714474:0;cd .smithy/formulas
+: 1431714475:0;ls
+: 1431714522:0;module list craype
+: 1431714531:0;module show craype
+: 1431715018:0;ls
+: 1431715021:0;vim Makefile
+: 1431716497:0;ls
+: 1431716500:0;cd
+: 1431716501:0;ls
+: 1431716509:0;cd tickets/251676/
+: 1431716510:0;ll
+: 1431718173:0;ping moab1
+: 1431718184:0;ssh moab1
+: 1431718901:0;ll
+: 1431718924:0;moab -h
+: 1431718943:0;man moab
+: 1431720776:0;ll
+: 1431720777:0;ls
+: 1431720857:0;ll
+: 1431720922:0;cd /lustre/atlas1/hep100/
+: 1431720924:0;ls
+: 1431720932:0;cd proj-shared
+: 1431720990:0;ll
+: 1431721024:0;sudo ls proj-shared
+: 1431721048:0;sudo ll proj-shared
+: 1431721055:0;sudo ls -l proj-shared
+: 1431721070:0;sudo ls -l proj-shared/heitmann
+: 1431721111:0;sudo ls -l /lustre/atlas2/hep100/proj-shared/heitmann
+: 1431721156:0;sudo ls -l /lustre/atlas/hep100/proj-shared/heitmann
+: 1431721221:0;cd /lustre/atlas/
+: 1431721222:0;ll
+: 1431721703:0;cd /ccs/proj/stf007/
+: 1431721704:0;ll
+: 1431721716:0;./parse-sweep-logs -h
+: 1431721728:0;./parse-sweep-logs -k heitmann
+: 1431721746:0;./parse-sweep-logs -k hep100/heitmann
+: 1431721858:0;vim parse-sweep-logs
+: 1431722008:0;./parse-sweep-logs -k hep100/proj-shared/heitmann
+: 1431722033:0;cd /lustre/atlas2/sweep/log
+: 1431722034:0;ls
+: 1431722064:0;cd atlas2.20150514
+: 1431722065:0;ls
+: 1431722074:0;head purge.log
+: 1431722165:0;grep -e '.*/lustre/atlas2/hep100/proj-shared/heitmann.*' purge.log
+: 1431722167:0;cd ..
+: 1431722188:0;grep -e '.*/lustre/atlas2/hep100/proj-shared/heitmann.*' atlas2.201505*/purge.log
+: 1431722220:0;grep -e '.*/lustre/atlas2/hep100/proj-shared/heitmann.*' atlas2.201504*/purge.log
+: 1431722258:0;grep -e '.*\.tar' atlas2.201505*/purge.log
+: 1431722277:0;grep -e '.*\/heitmann.*' atlas2.201505*/purge.log
+: 1431722290:0;grep -e '.*\/heitmann.*' atlas2.201504*/purge.log
+: 1431722325:0;cd ../../../atlas1/sweep/log/
+: 1431722332:0;grep -e '.*\/heitmann.*' atlas1.201504*/purge.log
+: 1431722346:0;grep -e '.*\/heitmann.*' atlas1.201505*/purge.log
+: 1431722406:0;grep -e '.*\/atlas.*' atlas1.201505*/purge.log
+: 1431722970:0;cd /lustre/atlas1/hep100/proj-shared
+: 1431723178:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann
+: 1431723255:0;sudo ls /lustre/atlas2/hep100/proj-shared/heitmann/TitanU/Grid/M026/L2100/HACC000/run/run000/hacc_gpu_m026.log
+: 1431723261:0;sudo ls /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M026/L2100/HACC000/run/run000/hacc_gpu_m026.log
+: 1431723276:0;sudo ls /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M026
+: 1431723537:0;ssh moab
+: 1431723541:0;ssh moab1
+: 1431723556:0;ls
+: 1431723562:0;tracejob -h
+: 1431951230:0;ssh moab1
+: 1431951247:0;ls
+: 1431951252:0;cd /lustre/atlas1/hep100/proj-shared
+: 1431951281:0;cd /lustre/atlas1/hep100/
+: 1431951288:0;cd  /lustre/atlas1/hep100/proj-shared
+: 1431951301:0;cd /lustre/atlas1/hep100
+: 1431951305:0;ls
+: 1431951307:0;ll
+: 1431951313:0;sudo ls proj-shared
+: 1431951344:0;sudo ls -l proj-shared/heitmann
+: 1431951410:0;ll
+: 1431951465:0;sudo ls -l /lustre/atlas2/hep100/proj-shared/heitmann
+: 1431951485:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann
+: 1431951496:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU
+: 1431951512:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/
+: 1431951545:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M025/
+: 1431951559:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M025/L2100/
+: 1431951568:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M025/L2100/HACC000
+: 1431951580:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M025/L2100/HACC000/run
+: 1431951585:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M025/L2100/HACC000/run/run000
+: 1431951615:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M025/L2100/HACC000/run/run000/hacc_gpum=_m025.log
+: 1431951624:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid/M025/L2100/HACC000/run/run000/hacc_gpu_m025.log
+: 1431951790:0;ll
+: 1431951857:0;cd /lustre/atlas2/hep100
+: 1431951858:0;ll
+: 1431951879:0;sudo ls proj-shared
+: 1431951898:0;sudo ls -l hep100/heitmann
+: 1431951906:0;sudo ls -l proj-shared
+: 1431951931:0;sudo ls -l proj-shared/heitmann
+: 1431951980:0;sudo ls -la proj-shared/heitmann
+: 1431952386:0;ll /ccs/proj
+: 1431952402:0;cd /ccs/proj/hep100
+: 1431952407:0;sudo ls /ccs/proj/hep100
+: 1431952437:0;ll /ccs/proj
+: 1431952448:0;cd /autofs/na4_proj
+: 1431952449:0;ls
+: 1431952450:0;ll
+: 1431952457:0;ll | grep hep
+: 1431952470:0;sudo ls -l hep100
+: 1431952542:0;clear
+: 1431955638:0;cd
+: 1431955662:0;grep purge .zhistory
+: 1431955686:0;grep logs .zhistory
+: 1431955725:0;grep -C 10 parse-sweep .zhistory
+: 1431955737:0;grep --colour -C 10 parse-sweep .zhistory
+: 1431955754:0;cd /ccs/proj/stf007
+: 1431955754:0;ls
+: 1431955765:0;less parse-sweep-logs
+: 1431955777:0;tmux
+: 1431955783:0;less parse-sweep-logs
+: 1431955829:0;cd /lustre/atlas2/sweep/log/atlas2.20150510/
+: 1431955844:0;grep heitman purge.log
+: 1431955923:0;cd /lustre/atlas2/hep100
+: 1431955925:0;ls
+: 1431955926:0;ll
+: 1431955932:0;stat proj-shared
+: 1431955949:0;stat -c %Y proj-shared
+: 1431955962:0;man stat
+: 1431955977:0;stat -c=%Y proj-shared
+: 1431955981:0;stat -C=%Y proj-shared
+: 1431956002:0;stat -c  proj-shared
+: 1431956008:0;man stat
+: 1431956145:0;ll
+: 1431956155:0;sudo stat proj-shared/heitmann
+: 1431956198:0;sudo -l
+: 1431956253:0;sudo ls -l proj-shared/heitmann
+: 1431956264:0;sudo ls -l proj-shared
+: 1431956272:0;sudo man ls
+: 1431956281:0;man ls
+: 1431956387:0;ls
+: 1431956392:0;./parse-sweep-logs -h
+: 1431956408:0;./parse-sweep-logs -k heitmann
+: 1431956432:0;ls
+: 1431956443:0;cd ..
+: 1431956444:0;ll
+: 1431956490:0;grep hep100 **/atlas2.201505*/*
+: 1431956531:0;grep hep100 atlas2.20150510/fsdata.atlas2.20150510 atlas2.20150510/hitfile.proj.atlas2.20150510 atlas2.20150510/hitfile.user.atlas2.20150510 atlas2.20150510/pruned-fsdata.atlas2.20150510 atlas2.20150510/purge.err.proj atlas2.20150510/purge.err.user atlas2.20150510/purge.log 
+: 1431956571:0;grep hep100 *201505*/purge.log
+: 1431956585:0;grep h *201505*/purge.log
+: 1431956621:0;grep M026 *201505*/purge.log
+: 1431956672:0;pwd
+: 1431956683:0;cd ../../atlas1/
+: 1431956704:0;cd /lustre/atlas1/sweep/log
+: 1431956709:0;grep M026 *201505*/purge.log
+: 1431956740:0;grep heitmann *20150*/purge.log
+: 1431961773:0;df
+: 1431967765:0;ls
+: 1431967769:0;ll
+: 1431967791:0;ssh titan-ext7
+: 1431967798:0;tmux attach
+: 1431969639:0;ll
+: 1431969641:0;cd
+: 1431969774:0;cd -
+: 1431969776:0;ls
+: 1431969777:0;ll
+: 1431969849:0;echo $HOME
+: 1431969896:0;cd atj
+: 1431969898:0;ls
+: 1431969928:0;find . -cmin -10
+: 1431969968:0;find . -maxdepth 1  -cnewer -4
+: 1431969974:0;find . -maxdepth 1  -cnewer 4
+: 1431969983:0;man find
+: 1431970011:0;find . -maxdepth 1  -cmin -4
+: 1431970022:0;find . -maxdepth 1  -ctime -4
+: 1431970031:0;cd acesiii
+: 1431970032:0;ls
+: 1431970055:0;sudo ls acesiii
+: 1431970076:0;cd
+: 1431970078:0;clear
+: 1431970104:0;ll
+: 1431970114:0;ll .. | grep bel
+: 1431970134:0;chmod o+x .
+: 1431970139:0;ll .. | grep bel
+: 1431970154:0;mkdir public
+: 1431970155:0;ll
+: 1431970171:0;chmod o+w public
+: 1431970172:0;ll
+: 1431970417:0;rm -fr public
+: 1431970418:0;ll
+: 1431970421:0;clear
+: 1431970612:0;ll
+: 1431970617:0;cd tickets/251676
+: 1431970617:0;ls
+: 1431970630:0;vim multi-defs.c
+: 1431970648:0;cc multi-defs.c
+: 1431970654:0;ll
+: 1431970662:0;mkdir reproducer
+: 1431970672:0;mv a.out multi-defs.c reproducer/.
+: 1431970673:0;ll
+: 1431970676:0;cd reproducer
+: 1431970686:0;module load acml
+: 1431970687:0;ls
+: 1431970692:0;cc multi-defs.c
+: 1431970710:0;ll
+: 1431970718:0;cc multi-defs.c
+: 1431970741:0;vim multi-defs.c
+: 1431970749:0;ll
+: 1431970758:0;cc multi-defs.c
+: 1431970762:0;ll
+: 1431970771:0;module load acml
+: 1431970777:0;module unload acml
+: 1431970789:0;module load acml/.5.0.0
+: 1431970790:0;ll
+: 1431970793:0;cc multi-defs.c
+: 1431970801:0;ls
+: 1431970808:0;module unload acml/.5.0.0
+: 1431970815:0;module load acml/5.3.1
+: 1431970818:0;cc multi-defs.c
+: 1431970832:0;module show acml/.5.0.0
+: 1431970902:0;ll /opt/acml/
+: 1431970936:0;cd /opt/modulefiles/acml
+: 1431970937:0;ls
+: 1431970938:0;ll
+: 1431970987:0;la
+: 1431970996:0;lla
+: 1431972004:0;ls
+: 1431972007:0;ll
+: 1431972009:0;cat 5.3.1
+: 1431972012:0;ll
+: 1431972079:0;cd /opt/acml/5.3.1/
+: 1431972080:0;ls
+: 1431972089:0;less set_pkgconfig_default_acml
+: 1431972106:0;less .set_paths_stub
+: 1431972172:0;cat .set_paths_stub
+: 1431972183:0;man subst
+: 1431972241:0;find . -iname *pkgconfig*
+: 1431972268:0;cat .set_paths_stub
+: 1431975430:0;ll
+: 1431975452:0;tmux list-sessions
+: 1431975459:0;ssh titan-ext2
+: 1431975462:0;tmux list-sessions
+: 1431975470:0;tmux attach 0
+: 1431975476:0;tmux attach -t 0
+: 1431975497:0;tmux attach -t 1
+: 1431975574:0;module avail 
+: 1431975725:0;tmux tickets
+: 1431975728:0;tmux attach
+: 1431975962:0;cd 
+: 1431975972:0;cd -
+: 1431975992:0;cd ../../fireworks/queue
+: 1431975993:0;ls
+: 1431975994:0;ll
+: 1431976001:0;cd ../user_objects/queue_adapters
+: 1431976001:0;ls
+: 1431976002:0;ll
+: 1431976008:0;vim pbs_newt_adapter.py
+: 1431976128:0;cd
+: 1431976132:0;ll
+: 1431976136:0;cd fireworks
+: 1431976136:0;ls
+: 1431976139:0;cd ../
+: 1431976139:0;ls
+: 1431976145:0;mkdir development
+: 1431976145:0;ls
+: 1431976148:0;cd development
+: 1431976148:0;ls
+: 1431976181:0;git clone https://github.com/materialsproject/fireworks.git
+: 1431976184:0;ls
+: 1431976186:0;cd fireworks/
+: 1431976187:0;ls
+: 1431976188:0;ll
+: 1431976195:0;cd fireworks/user_objects
+: 1431976196:0;ls
+: 1431976217:0;ls dupefinders/__init__.py
+: 1431976221:0;cat dupefinders/dupefinder_exact.py
+: 1431976225:0;cat dupefinders/__init__.py
+: 1431976232:0;ls
+: 1431976236:0;cd queue_adapters
+: 1431976237:0;ls
+: 1431976242:0;ll
+: 1431976251:0;cat common_adapter.py
+: 1431976255:0;vim common_adapter.py
+: 1431976825:0;ls
+: 1431976826:0;ll
+: 1431976830:0;cd ../
+: 1431976831:0;ll
+: 1431976834:0;ls firetasks
+: 1431976981:0;ll
+: 1431976986:0;cd ..
+: 1431976986:0;ls
+: 1431976987:0;ll
+: 1431978528:0;vim ~/.ssh/config
+: 1431981233:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU
+: 1431981267:0;sudo ls -l /lustre/atlas1/hep100/proj-shared/heitmann/TitanU/Grid
+: 1432039560:0;tmux list-sessions
+: 1432039570:0;ssh titan-ext2
+: 1432039576:0;tmux list-sessions
+: 1432039586:0;tmux attach
+: 1432039649:0;vim .tmux.conf
+: 1432039677:0;tmux
+: 1432039748:0;tmux list-sessions
+: 1432039751:0;tmux
+: 1432039860:0;ls
+: 1432040531:0;ll
+: 1432040537:0;tmux
+: 1432040539:0;ls
+: 1432040543:0;cd development/fireworks
+: 1432040547:0;ls
+: 1432040551:0;git status
+: 1432040563:0;cd fireworks/u
+: 1432040570:0;cd fireworks/user_objects
+: 1432040571:0;ls
+: 1432040575:0;cd queue_adapters
+: 1432040575:0;ls
+: 1432040579:0;rm titan.py
+: 1432040582:0;ll
+: 1432040584:0;cd ..
+: 1432040585:0;ls
+: 1432040586:0;ll
+: 1432040587:0;cd ..
+: 1432040588:0;ls
+: 1432040589:0;ll
+: 1432040607:0;git checkout -b development
+: 1432040609:0;ls
+: 1432040625:0;cd core
+: 1432040626:0;ls
+: 1432040626:0;ll
+: 1432040629:0;vim launchpad.py
+: 1432041070:0;ls
+: 1432041076:0;cd ../../
+: 1432041078:0;ls
+: 1432041082:0;cd ../
+: 1432041082:0;ls
+: 1432041091:0;cd ../fireworks/athena
+: 1432041092:0;ls
+: 1432041099:0;ls athena
+: 1432041103:0;cd athena
+: 1432041105:0;vim demo.py
+: 1432041215:0;ls
+: 1432041220:0;python demo.py
+: 1432041229:0;module load python python_fireworks python_setuptools python_ipython
+: 1432041231:0;python demo.py
+: 1432041240:0;ls
+: 1432041249:0;module load python python_fireworks python_setuptools python_ipython
+: 1432041251:0;ipython
+: 1432041325:0;ipython --version
+: 1432041458:0;python demo.py
+: 1432042936:0;man ls
+: 1432043060:0;echo $PAGER
+: 1432043095:0;export LESS=-r
+: 1432043098:0;ipython
+: 1432043195:0;vim ~/.zprofile
+: 1432043209:0;vim ~/.zshrc
+: 1432045546:0;tmux attach
+: 1432048617:0;module avail ipyt
+: 1432048626:0;cd
+: 1432048628:0;cd .smithy
+: 1432048629:0;ls
+: 1432048631:0;cd formulas
+: 1432048632:0;ls
+: 1432048660:0;vim ipython_formula.rb 
+: 1432048790:0;module avail ipy
+: 1432048821:0;module show ipy
+: 1432048826:0;module show ipython
+: 1432048854:0;ipython --version
+: 1432048859:0;module load ipython
+: 1432048865:0;ipython --version
+: 1432048897:0;module load python
+: 1432048902:0;module show ipython
+: 1432048910:0;module load ipython'\
+'
+: 1432048917:0;module load ipython
+: 1432048922:0;ipython --verision
+: 1432048927:0;ipython version
+: 1432048933:0;ipython --version
+: 1432048937:0;ipython
+: 1432048947:0;ll
+: 1432048962:0;moduleload python python_fireworks python_setuptools python_ipython
+: 1432048973:0;module load python python_fireworks python_setuptools python_ipython
+: 1432048977:0;ipython --version
+: 1432048994:0;module avail ipython
+: 1432049011:0;module avail python_ipython
+: 1432049014:0;cd
+: 1432049018:0;cd .smithy/formulas
+: 1432049019:0;ls
+: 1432049059:0;module show python_ipython
+: 1432049078:0;cd /sw/xk6/modulefiles/python_ipython
+: 1432049079:0;ls
+: 1432049080:0;ll
+: 1432049088:0;vim 3.0.0 -ro
+: 1432049101:0;vim -R 3.0.0
+: 1432049912:0;ll
+: 1432049988:0;ls
+: 1432049996:0;pwd
+: 1432050705:0;ipython
+: 1432052316:0;ls
+: 1432052320:0;python demo.py
+: 1432052392:0;top
+: 1432052447:0;cd /lustre/atlas/scratch/belhorn/stf007/
+: 1432052449:0;cd out
+: 1432052450:0;ls
+: 1432052451:0;ll
+: 1432052462:0;cd block_2015-05-19-16-19-25-806656
+: 1432052463:0;ll
+: 1432052467:0;cd launcher_2015-05-19-16-19-26-084919
+: 1432052467:0;ls
+: 1432052468:0;ll
+: 1432052471:0;cat Unnamed_FW.o2360076
+: 1432052684:0;python demo.py
+: 1432055099:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/fw_tutorials
+: 1432055100:0;ls
+: 1432055104:0;cd queue_pt2
+: 1432055104:0;ls
+: 1432055108:0;cat fw_walltime.yaml
+: 1432055667:0;python demo.py
+: 1432055950:0;showq -w user=belhorn
+: 1432056391:0;rlaunch -h
+: 1432056397:0;module load python python_fireworks python_setuptools python_ipython
+: 1432056401:0;rlaunch -h
+: 1432056484:0;python demo.py
+: 1432060455:0;ll
+: 1432060458:0;cd ..
+: 1432060458:0;ls
+: 1432060459:0;ll
+: 1432060462:0;cd ..
+: 1432060462:0;ls
+: 1432060469:0;cd block_2015-05-19-18-33-44-402023
+: 1432060470:0;ll
+: 1432060474:0;cd launcher_2015-05-19-18-33-44-746700
+: 1432060475:0;ls
+: 1432060480:0;cat Unnamed_FW.o2360251
+: 1432060535:0;python demo.py
+: 1432060577:0;cd ../../block_2015-05-19-18-35-37-320983
+: 1432060578:0;ls
+: 1432060580:0;cd launcher_2015-05-19-18-35-37-552669
+: 1432060580:0;ls
+: 1432060583:0;cat Unnamed_FW.o2360252
+: 1432060630:0;python demo.py
+: 1432063044:0;ll
+: 1432063068:0;cd ../../block_2015-05-19-18-37-12-297834
+: 1432063069:0;ls
+: 1432063070:0;ll
+: 1432063084:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1432063108:0;grep  -oe '\(Task.*running.*\)' **/*.o*
+: 1432063125:0;grep  -C 10 -hoe '\(Task.*running.*\)' **/*.o*
+: 1432063135:0;grep  -C 10 -e '\(Task.*running.*\)' **/*.o*
+: 1432063153:0;ls
+: 1432063196:0;ll
+: 1432063216:0;cat launcher_2015-05-19-18-39-06-823796/submission.pbs
+: 1432063236:0;cat **/submission.pbs
+: 1432063353:0;l
+: 1432063358:0;ls **
+: 1432063440:0;rlaunch -h
+: 1432063609:0;python demo.py
+: 1432063643:0;ls
+: 1432063702:0;ll
+: 1432063705:0;cd ../../fireworks
+: 1432063706:0;ls
+: 1432063732:0;grep 'number of jobs currently in queue' **/*.py
+: 1432063735:0;ll
+: 1432063756:0;grep -e '.*number of jobs currently in queue.*' **/*.py
+: 1432063766:0;grep -e '.*number of jobs currently in queue.*' **/*
+: 1432063770:0;ll
+: 1432063786:0;grep 'number' **/*
+: 1432063802:0;grep 'number of jobs' **/*
+: 1432063825:0;grep 'number of jobs currently' **/*
+: 1432064130:0;python demo.py
+: 1432064560:0;cd
+: 1432064562:0;cd .vim
+: 1432064562:0;ls
+: 1432064584:0;mkdir -p after/ftplugin/
+: 1432064592:0;mv python after/ftplugin/python.vim
+: 1432064601:0;vim demo.py
+: 1432064661:0;ll
+: 1432064908:0;cd bundle
+: 1432064909:0;ls
+: 1432064915:0;git clone https://github.com/hdima/python-syntax.git
+: 1432064931:0;vim demo.py
+: 1432065470:0;ls
+: 1432065475:0;ll
+: 1432065476:0;cd python-syntax
+: 1432065477:0;ls
+: 1432065637:0;ll
+: 1432065639:0;cd ..
+: 1432065640:0;ls
+: 1432065643:0;rm -fr python-syntax
+: 1432065647:0;which wget
+: 1432065651:0;cd ..
+: 1432065654:0;mkdir syntax
+: 1432065656:0;cd syntax
+: 1432065665:0;wget http://www.vim.org/scripts/download_script.php?src_id=21056
+: 1432065668:0;ls
+: 1432065669:0;ll
+: 1432065700:0;curl -h
+: 1432065747:0;curl -o python.vim http://www.vim.org/scripts/download_script.php?src_id=21056
+: 1432065764:0;wget 'http://www.vim.org/scripts/download_script.php?src_id=21056'
+: 1432065766:0;ll
+: 1432065769:0;cat download_script.php\?src_id=21056
+: 1432065772:0;ls
+: 1432065778:0;mv download_script.php\?src_id=21056 python.vim
+: 1432065853:0;ll
+: 1432065858:0;cd ..
+: 1432065859:0;ls
+: 1432065884:0;ls bundle
+: 1432065891:0;vim demo.py
+: 1432066110:0;ll
+: 1432066115:0;rm -fr syntax/python.vim
+: 1432066118:0;rm -fr syntax
+: 1432066119:0;ll
+: 1432066125:0;vim demo.py
+: 1432067623:0;python demo.py
+: 1432067920:0;top
+: 1432069277:0;cd /lustre/atlas2/hep100/
+: 1432069293:0;ll .. | grep hep100
+: 1432069313:0;cd ..
+: 1432069314:0;ll
+: 1432069335:0;cd /lustre/atlas1/hep100
+: 1432069341:0;ll .. | grep hep100
+: 1432069344:0;ll
+: 1432069372:0;ll scratch
+: 1432069377:0;cd /lustre/atlas2/hep100/
+: 1432069378:0;ll
+: 1432069516:0;sudo chmod o-wrx,g+ws current
+: 1432069530:0;ll
+: 1432069538:0;sudo ls proj-shared
+: 1432069543:0;sudo ls -l proj-shared
+: 1432070256:0;ll
+: 1432070472:0;sudo ls current
+: 1432129641:0;tmux attach
+: 1432133665:0;which env
+: 1432133687:0;l
+: 1432133688:0;ll
+: 1432133703:0;chmod a+x demo.py
+: 1432133709:0;ll
+: 1432133722:0;mv demo.py wf-demo
+: 1432133723:0;ll
+: 1432133735:0;./wf-demo
+: 1432133755:0;vim wf-demo
+: 1432133768:0;which python
+: 1432133783:0;man env
+: 1432133812:0;./wf-demo
+: 1432133949:0;ll
+: 1432133998:0;python wf-demo
+: 1432134050:0;./wf-demo -h
+: 1432134065:0;./wf-demo --reset -p -b
+: 1432134163:0;showq
+: 1432134168:0;showq -w user=belhorn
+: 1432134743:0;./wf-demo --reset -p -b
+: 1432137592:0;top
+: 1432137618:0;ll
+: 1432137636:0;cd ../block_2015-05-20-15-58-15-750226
+: 1432137637:0;ll
+: 1432137648:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1432137672:0;./wf-demo --reset -p -b
+: 1432138042:0;ll
+: 1432138049:0;./wf-demo --reset -p -b
+: 1432138739:0;ls
+: 1432138754:0;cd ../block_2015-05-20-16-07-31-619902
+: 1432138755:0;ls
+: 1432138758:0;ll
+: 1432138766:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1432138783:0;ll **
+: 1432140053:0;echo $PROJWORK
+: 1432140068:0;cd $PROJWORK
+: 1432140069:0;ls
+: 1432140077:0;cd -
+: 1432140078:0;ls
+: 1432141503:0;ll
+: 1432141509:0;vim wf-demo
+: 1432141517:0;./wf-demo --reset -p -b
+: 1432145685:0;ls
+: 1432145688:0;mkdir bin
+: 1432145693:0;ls ..
+: 1432147440:0;./wf-demo --reset
+: 1432147616:0;./wf-demo -bpu
+: 1432147623:0;./wf-demo -pu
+: 1432147630:0;./wf-demo -p
+: 1432147741:0;ll
+: 1432147743:0;cd ..
+: 1432147743:0;s
+: 1432147744:0;ls
+: 1432147753:0;cd block_2015-05-20-18-46-57-487093
+: 1432147754:0;ll
+: 1432147757:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1432147952:0;ll
+: 1432148061:0;./wf-demo -bp
+: 1432148244:0;ll
+: 1432148245:0;cd ..
+: 1432148246:0;ls
+: 1432148246:0;ll
+: 1432148419:0;cat batchjob.py
+: 1432148450:0;rm batchjob.py demotasks.py FW.json FW_offline.json 
+: 1432148453:0;ll
+: 1432148455:0;cat load_lp.py
+: 1432148461:0;rm load_lp.py load_lp.pyc
+: 1432148463:0;ll
+: 1432148466:0;rm submission.pbs
+: 1432148469:0;ll
+: 1432148505:0;mv wf-demo ../bin/demo
+: 1432148507:0;ll
+: 1432148510:0;cd ..
+: 1432148511:0;ls
+: 1432148512:0;ll
+: 1432148516:0;ls bin
+: 1432148520:0;vim demo
+: 1432148537:0;ll
+: 1432148551:0;vim bin/demo
+: 1432148573:0;ll
+: 1432148589:0;mv bin/demo athena/.
+: 1432148590:0;ll
+: 1432148592:0;cd athena
+: 1432148593:0;ls
+: 1432148593:0;ll
+: 1432148600:0;git status
+: 1432148605:0;git rm demo.py
+: 1432148611:0;git add demo
+: 1432148624:0;ll
+: 1432148627:0;git status
+: 1432148634:0;git add __init__.py
+: 1432148637:0;git status
+: 1432148651:0;git commit -m "Cleaned up monolithic demo."
+: 1432151914:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/fw_tutorials
+: 1432151915:0;ls
+: 1432151917:0;ll
+: 1432151921:0;cd workflow
+: 1432151921:0;ls
+: 1432151925:0;cat org_wf.yaml
+: 1432151950:0;cd ../../scripts
+: 1432151951:0;ls
+: 1432151953:0;cd ..
+: 1432151954:0;ll
+: 1432153887:0;cd block_2015-05-20-18-46-57-487093
+: 1432153890:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1432154398:0;ll
+: 1432154409:0;./demo -bp
+: 1432154461:0;cd ../block_2015-05-20-20-40-18-493597
+: 1432154463:0;date
+: 1432154471:0;date --utc
+: 1432154481:0;ll
+: 1432154489:0;ls **
+: 1432154592:0;grep rhea **/*
+: 1432154598:0;ll
+: 1432154618:0;cat **/submission.pbs
+: 1432154630:0;ssh rhea
+: 1432154648:0;ll
+: 1432154668:0;ll **
+: 1432154687:0;ll
+: 1432154976:0;./demo --reset -p -b
+: 1432155001:0;cd ../block_2015-05-20-20-49-38-374020
+: 1432155002:0;ll
+: 1432155009:0;ls **
+: 1432155040:0;cat **/submission.pbs
+: 1432155188:0;./demo --reset -p -b
+: 1432155240:0;cd ../block_2015-05-20-20-53-10-139843
+: 1432155241:0;ls
+: 1432155242:0;ll
+: 1432155245:0;ls **
+: 1432155299:0;cat **/submission.pbs
+: 1432155503:0;./demo --reset -p -b
+: 1432155530:0;cd ../block_2015-05-20-20-58-24-787045
+: 1432155531:0;ll
+: 1432155538:0;cat **/submission.pbs
+: 1432155658:0;ll
+: 1432155662:0;ll **
+: 1432155672:0;grep  -hoe '\(Task.*running.*\)' **/*.o*
+: 1432155956:0;./demo --reset -p -b
+: 1432155971:0;d ../block_2015-05-20-21-05-58-097554
+: 1432155973:0;ls
+: 1432155979:0;cd ../block_2015-05-20-21-05-58-097554
+: 1432155980:0;ll
+: 1432155984:0;ls **
+: 1432156082:0;vim demo
+: 1432156101:0;./demo --reset -p -b
+: 1432156225:0;cd ../block_2015-05-20-21-10-11-575262
+: 1432156226:0;ll
+: 1432156232:0;ls **
+: 1432156347:0;cat launcher_2015-05-20-21-10-29-302121/rhea_task_5.o2362353
+: 1432156366:0;cat launcher_2015-05-20-21-10-29-302121/submission.pbs
+: 1432156429:0;./demo --reset -p -b
+: 1432156484:0;cd ../block_2015-05-20-21-13-50-551005
+: 1432156485:0;ll
+: 1432156492:0;ls **
+: 1432156501:0;cat launcher_2015-05-20-21-14-15-001880/submission.pbs
+: 1432156513:0;ll
+: 1432156523:0;cat launcher_2015-05-20-21-14-15-001880/rhea_task_5.o2362362
+: 1432156704:0;cat **/submission.pbs
+: 1432156747:0;./demo --reset -p -b
+: 1432156755:0;cd ..
+: 1432156756:0;ll
+: 1432156766:0;cat submission.pbs
+: 1432156781:0;cd block_2015-05-20-21-19-08-556222
+: 1432156782:0;ll
+: 1432156790:0;cat **/submission.pbs
+: 1432156813:0;ll **
+: 1432156828:0;cat **/rhea*
+: 1432156898:0;./demo --reset -p -b
+: 1432156956:0;cd ..
+: 1432156956:0;ls
+: 1432156975:0;cd block_2015-05-20-21-21-39-933695
+: 1432156976:0;ll
+: 1432156982:0;cat **/rhea*
+: 1432157001:0;cat **/submission.pbs
+: 1432157013:0;ll
+: 1432157062:0;ll **
+: 1432157380:0;./demo --reset -p -b
+: 1432157409:0;cd ../block_2015-05-20-21-29-42-102884
+: 1432157411:0;ll
+: 1432157415:0;ll **
+: 1432157425:0;cat launcher_2015-05-20-21-30-02-250836/submission.pbs
+: 1432157442:0;ll **
+: 1432157450:0;cat launcher_2015-05-20-21-30-02-250836/rhea_task_5.o2362409
+: 1432157471:0;cd launcher_2015-05-20-21-30-02-250836
+: 1432157472:0;ll
+: 1432157476:0;cat submission.pbs
+: 1432157497:0;cat rhea_task_5.o2362409
+: 1432157536:0;hostname -f
+: 1432157576:0;./demo --reset -p -b
+: 1432157580:0;ls
+: 1432157605:0;cd ../../block_2015-05-20-21-33-01-758009
+: 1432157606:0;ll
+: 1432157613:0;ll **
+: 1432157633:0;cd launcher_2015-05-20-21-33-19-180727
+: 1432157634:0;ll
+: 1432157637:0;cat rhea_task_5.o2362414
+: 1432157654:0;ll
+: 1432157662:0;rm wf-demo
+: 1432157664:0;ll
+: 1432157684:0;cat submission.pbs
+: 1432165992:0;ls
+: 1432211907:0;ll
+: 1432211913:0;tmux attach
+: 1432211922:0;vim demo
+: 1432212080:0;./demo --reset -p -b
+: 1432212140:0;cd ../../block_2015-05-21-12-41-27-767686
+: 1432212142:0;ll
+: 1432212145:0;cd launcher_2015-05-21-12-41-29-183206
+: 1432212145:0;ls
+: 1432212148:0;cat submission.pbs
+: 1432212167:0;l
+: 1432212172:0;cat FW.json
+: 1432212181:0;ll
+: 1432212184:0;cat rhea_task_5.o2363132
+: 1432212202:0;ssh rhea
+: 1432212611:0;cat submission.pbs
+: 1432212703:0;cd
+: 1432212705:0;cd .fireworks
+: 1432212707:0;ls
+: 1432212711:0;cat FW_config.yaml
+: 1432212731:0;cd config
+: 1432212732:0;la
+: 1432212737:0;cat titan_lpad_nopw.yaml
+: 1432212813:0;cd /lustre/atlas/scratch/belhorn/stf007
+: 1432212814:0;ls
+: 1432212818:0;cd log
+: 1432212819:0;ll
+: 1432212844:0;less qadapter_titan_queue-debug.log
+: 1432215132:0;ll
+: 1432215143:0;uname -a
+: 1432215158:0;hostname -f
+: 1432215168:0;hostname -h
+: 1432215180:0;hostname -d
+: 1432215192:0;hostname -y
+: 1432215645:0;./demo --reset -p -b -h
+: 1432215663:0;./demo --reset -p -u
+: 1432215669:0;./demo --reset -pb -u
+: 1432216559:0;ll
+: 1432216567:0;cat FW_offline.json
+: 1432216611:0;cat FW.json
+: 1432216792:0;cd /sw/xk6/python_fireworks/1.04/python2.7.9/source/fw_tutorials
+: 1432216793:0;ls
+: 1432216799:0;cd worker/
+: 1432216800:0;ls
+: 1432216804:0;cat my_fworker.yaml
+: 1432216809:0;ll
+: 1432216981:0;./demo
+: 1432217006:0;cd ../../block_2015-05-21-13-41-11-288386
+: 1432217007:0;ll
+: 1432217017:0;ll **
+: 1432217036:0;ll
+: 1432217051:0;cat **/*.o
+: 1432217056:0;cat **/*.o*
+: 1432217285:0;cat /proc/cpuinfo
+: 1432217295:0;cat /proc/cpuinfo | head
+: 1432217311:0;head /proc/cpuinfo
+: 1432217656:0;which head
+: 1432217924:0;./demo --reset -p -b
+: 1432217939:0;cd ../block_2015-05-21-14-18-46-091655
+: 1432217940:0;ll
+: 1432217945:0;ll **
+: 1432217974:0;cat **/*.o*
+: 1432217997:0;ll **
+: 1432218017:0;cd launcher_2015-05-21-14-18-52-222366/
+: 1432218019:0;ll
+: 1432218021:0;cat submission.pbs
+: 1432218251:0;module load python python_fireworks python_setuptools python_ipython
+: 1432218254:0;rlaunch -h
+: 1432218592:0;qlaunch -h
+: 1432218734:0;git status
+: 1432218740:0;git diff
+: 1432218779:0;git add templates/submit_titan.template templates/submit_rhea.template
+: 1432218796:0;git diff ../bin/compute_node_task.sh
+: 1432218835:0;git commit -m "Added unique identifiers to pbs templates."
+: 1432218849:0;git add ../bin/compute_node_task.sh
+: 1432218866:0;git commit -m "Using FQDN to id nodes."
+: 1432218872:0;git diff demo
+: 1432218919:0;git commit -m "Using smaller wf and added rhea fireworks to test cross-submission."
+: 1432218928:0;git commit -am "Using smaller wf and added rhea fireworks to test cross-submission."
+: 1432218932:0;git status
+: 1432218939:0;ls ../examples
+: 1432218959:0;cat ../examples
+: 1432218963:0;cat ../examples/FW_config.yaml
+: 1432218978:0;rm -fr ../examples
+: 1432218979:0;ll
+: 1432218983:0;git status
+: 1432219010:0;git checkout -b feature/cross-sub
+: 1432219011:0;ll
+: 1432219016:0;vim demo
+: 1432219318:0;cd ../queue
+: 1432219318:0;ls
+: 1432219319:0;ll
+: 1432219324:0;cat qadapter_pbs.yaml
+: 1432219450:0;ll
+: 1432219699:0;./demo --reset -p -b
+: 1432219808:0;ll
+: 1432219831:0;cd ../../block_2015-05-21-14-48-21-201392
+: 1432219832:0;ll
+: 1432219835:0;ll **
+: 1432219847:0;cat **/*.o*
+: 1432220207:0;./demo --reset -p -b
+: 1432220220:0;cd ../block_2015-05-21-14-56-48-945488
+: 1432220220:0;ll
+: 1432220225:0;cat **/*.o*
+: 1432220330:0;cat **/*.pbs
+: 1432220927:0;./demo --reset -p -b
+: 1432220971:0;cd ../block_2015-05-21-15-08-50-705928/
+: 1432220972:0;ll
+: 1432220977:0;ll **
+: 1432220986:0;cat **/*.pbs
+: 1432221494:0;./demo --reset -p -b
+: 1432221519:0;cd ../block_2015-05-21-15-18-17-902307
+: 1432221520:0;ll
+: 1432221527:0;cat **/*.pbs
+: 1432221566:0;ll
+: 1432221577:0;cat **/*.o*
+: 1432221971:0;cd
+: 1432221974:0;cd .smithy
+: 1432221974:0;ls
+: 1432221976:0;cd formulas
+: 1432221976:0;ls
+: 1432221987:0;vim python_fireworks_formula.rb
+: 1432222097:0;ll
+: 1432222129:0;which module
+: 1432222137:0;which modulecmd
+: 1432222146:0;vim ~/.zshrc
+: 1432222298:0;ll
+: 1432222306:0;which python
+: 1432222322:0;module avail
+: 1432222352:0;module show python_netcdf4/1.0.6
+: 1432222391:0;cd .smithy
+: 1432222392:0;ls
+: 1432222395:0;cd formulas
+: 1432222433:0;smithy formula install python_fireworks_formula.rb
+: 1432222445:0;. /sw/tools/smithy/environment.sh
+: 1432222472:0;man smithy
+: 1432222503:0;smithy formula install python_fireworks_formula.rb
+: 1432222585:0;module show python_fireworks/1.04
+: 1432222602:0;smithy module create python_fireworks/1.04/python2.7.9
+: 1432222657:0;smithy module deploy python_fireworks/1.04/python2.7.9
+: 1432222681:0;module show python_fireworks
+: 1432222691:0;module laod python_fireworks
+: 1432222695:0;module load python_fireworks
+: 1432222708:0;module load python python_fireworks python_setuptools python_ipython
+: 1432222746:0;module load python python_fireworks python_setuptools
+: 1432222758:0;ll
+: 1432222763:0;python
+: 1432222781:0;ll
+: 1432222807:0;smithy module -h
+: 1432222840:0;module avail
+: 1432222907:0;module load python_fireworks
+: 1432222927:0;module load python
+: 1432222933:0;python
+: 1432222950:0;module load python python_fireworks
+: 1432222956:0;echo $PYTHONPATH
+: 1432222966:0;python
+: 1432223011:0;cd /sw/rhea/python_fireworks/1.04/
+: 1432223012:0;ls
+: 1432223021:0;. /sw/tools/smithy/environment.sh
+: 1432223046:0;smithy formula install python_fireworks/1.04/python2.7.9
+: 1432223110:0;smithy module deploy python_fireworks/1.04/python2.7.9
+: 1432223128:0;module load python python_fireworks
+: 1432223142:0;module load python python_fireworks python_setuptools
+: 1432223164:0;module -h
+: 1432223173:0;module unload python python_fireworks python_setuptools
+: 1432223186:0;module load python python_fireworks python_setuptools
+: 1432223196:0;python
+: 1432223224:0;./demo --reset -p -b
+: 1432223251:0;cd ../block_2015-05-21-15-47-06-449577
+: 1432223252:0;ll
+: 1432223264:0;ll **
+: 1432223272:0;cat **/*.o*
+: 1432223320:0;ll **
+: 1432223349:0;cat launcher_2015-05-21-15-47-12-398683/rhea_compute_job.o61841
+: 1432223377:0;cd
+: 1432223392:0;vim .smithy/formulas/python_fireworks_formula.rb
+: 1432223499:0;. /sw/tools/smithy/environment.sh
+: 1432223516:0;smithy module deploy python_fireworks/1.04/python2.7.9
+: 1432223527:0;smithy formula install python_fireworks/1.04/python2.7.9
+: 1432223547:0;smithy module deploy python_fireworks/1.04/python2.7.9
+: 1432223561:0;module load python python_fireworks
+: 1432223569:0;python
+: 1432223585:0;cd .smithy/formulas
+: 1432223589:0;git status
+: 1432223639:0;git commit -am 'Removed unecessary prereq for python_setuptools.'
+: 1432223650:0;git pull origin master
+: 1432223659:0;git push origin master
+: 1432223676:0;ll
+: 1432223678:0;git status
+: 1432223684:0;git push origin master
+: 1432223753:0;ll
+: 1432223835:0;ssh-keygen -t rsa -b 4096 -N B1k3p@7h
+: 1432223858:0;vim ~/.zhistory

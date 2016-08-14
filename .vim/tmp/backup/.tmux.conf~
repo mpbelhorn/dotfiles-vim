@@ -1,0 +1,116 @@
+#--References------------------------------------------------------------------
+# http://blog.hawkhost.com/2010/07/02/tmux-%E2%80%93-the-terminal-multiplexer-part-2/
+# https://wiki.archlinux.org/index.php/Tmux
+
+#--Core-Settings---------------------------------------------------------------
+## Set the prefix. ` is an interesting key for a prefix
+set -g prefix `
+bind ` send-prefix
+
+## Set the secondary prefix to screen default for teh plebes.
+set -g prefix2 "C-B"
+bind "C-B" send-prefix -2
+
+## Use a universal encoding
+# set -g utf8 on # Removed in 2.2
+
+## 0 is too far from `
+set -g base-index 1
+
+## Update TERM with key envvars at start using 256colors when appropriate
+set -g default-terminal "screen"
+set -g update-environment 'DISPLAY SSH_ASKPASS SSH_AGENT_PID SSH_CONNECTION WINDOWID XAUTHORITY TERM'
+if "[[ ${TERM} =~ 256color || ${TERM} == fbterm ]]" 'set -g default-terminal screen-256color'
+
+## Keep tmux msgs around longer
+set -g display-time 4000
+
+## Keep longer scrollback history
+set -g history-limit 50000
+
+#--Key-Bindings-----------------------------------------------------------------
+## Splits
+bind | split-window -h
+bind _ split-window -v
+
+## Motion
+unbind l # default: 'last-window'
+unbind p # default: 'previous-window'
+bind p last-window
+bind i select-pane -U
+bind k select-pane -D
+bind j select-pane -L
+bind l select-pane -R
+bind J previous-window
+bind L next-window
+bind K last-window
+
+## Move Panes around Windows
+bind S break-pane
+bind C-j resize-pane -L 5
+bind C-k resize-pane -D 5
+bind C-i resize-pane -U 5
+bind C-l resize-pane -R 5
+
+## clipboard selection integration
+### Copy tmux paste buffer to clipboard
+bind C-c run "tmux show-buffer | xclip -i -selection clipboard"
+
+### Copy clipboard to tmux paste buffer and paste tmux paste buffer
+bind C-v run "tmux set-buffer -- \"$(xclip -o -selection clipboard)\"; tmux paste-buffer"
+
+#--Status-Bar-------------------------------------------------------------------
+# Core settings
+set -g status-interval 5
+# set -g status-utf8 on # Removed in 2.2
+set -g status-keys vi
+
+# Default colors
+set -g status-bg black
+set -g status-fg white
+
+# Left side of status bar
+set -g status-left-length 20
+set -g status-left '#[fg=green][#[bg=black,fg=cyan]#S#[bg=black,fg=blue,dim]:#H#[fg=green]]'
+set -g status-right '#[fg=green][#[fg=white]#T#[fg=green]][#[fg=blue]%Y-%m-%d #[fg=white]%H:%M#[default]#[fg=green]]'
+
+#--Window-Options---------------------------------------------------------------
+# Core settings
+setw -g mode-keys vi
+# setw -g mode-mouse on # Allow mouse to scroll window # Removed in 2.1
+setw -g monitor-activity on
+setw -g aggressive-resize on
+
+# Colors
+setw -g window-status-activity-fg colour228
+setw -g window-status-activity-attr dim
+setw -g window-status-bell-fg colour228
+setw -g window-status-bell-attr dim
+
+# Were these two always wrong and silently ignored. Removed to supress error in v2.2
+# setw -g window-status-content-fg colour228 
+# setw -g window-status-content-attr dim
+
+setw -g window-status-format '#[fg=cyan,dim]#I#[fg=blue]:#[default]#W#[fg=grey,dim]#F'
+setw -g window-status-current-format '#[bg=blue,fg=cyan,bold]#I#[bg=blue,fg=cyan]:#[fg=white]#W#[fg=dim]#F'
+
+
+#--Plugin-Manager--------------------------------------------------------------
+## Example ways to enable plugins
+##  Each sourced from remote git repos, nominally hosted on github.
+# set -g @plugin 'tmux-plugins/tmux-sensible'
+# set -g @plugin 'github_username/plugin_name'
+# set -g @plugin 'git@github.com/user/plugin'
+# set -g @plugin 'git@bitbucket.com/user/plugin'
+
+## List of plugins
+#set -g @plugin 'tmux-plugins/tpm'
+#set -g @plugin 'tmux-plugins/tmux-sensible'
+#set -g @plugin 'tmux-plugins/tmux-resurrect'
+# set -g @plugin 'tmux-plugins/tmux-continuum' # Depends on tmux-ressurrect
+#set -g @plugin 'tmux-plugins/tmux-sidebar'
+
+## Initialize plugin manager
+##   - keep this line at the very bottom of tmux.conf
+#run '~/.tmux/plugins/tpm/tpm'
+

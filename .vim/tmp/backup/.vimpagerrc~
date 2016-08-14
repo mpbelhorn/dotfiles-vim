@@ -1,0 +1,5 @@
+source ~/.vimrc
+set nonumber
+if is_man == 1
+  set textwidth=80
+endif
